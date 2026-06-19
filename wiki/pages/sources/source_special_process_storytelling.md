@@ -53,6 +53,11 @@ When a pilot lands an passenger plane on the gravel runway at a northern reserve
 *   **Animating the Material**: The concept of materials "remembering" how they were treated bridges animist worldviews with physical materials science principles.
 *   **Cognitive Anchors**: Dramatic narrative vignettes serve as memorable anchors during shift fatigue, prompting strict compliance check adherence.
 
+### 2.3 Empirical Design Lineage
+This dual-register compliance and training approach is grounded in the founder's two decades of work spanning both academic quality research and industrial training platforms [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]]:
+*   **Quality Standard Auditing**: Grounded in 7–8 years of academic research on ISO 9001 (resulting in 4–5 journal publications), analyzing how formal management standards can rigidly govern operations while coexisting with organic workplace habits.
+*   **Technical Training Scale**: Built on the authoring of over 500 eLearning projects and technical manuals for Fortune 100 firms (such as Michelin), developing methodical design templates and structured visual explanations that reduce instruction cost while locking in absolute operational accuracy.
+
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->

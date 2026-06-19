@@ -20,6 +20,10 @@
 *   [[wiki/pages/concepts/dual_register_playbook|dual_register_playbook]] — Details the pairing of expository AS9100/ISO9001 SOP standards with relational storytelling registers, grounded in verb-centered causation mechanics and traditional oral pedagogy.
 *   [[wiki/pages/concepts/mfg_requirements|mfg_requirements]] — Outlines the dominant aerospace quality management standards (AS9100D), federal regulations (CAR 561/573, CGP), and special process accreditations (Nadcap) in the Canadian aerospace manufacturing sector.
 
+## Pedagogy
+
+*   [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]] — Details the founder's academic research into ISO 9001 quality standardization and empirical training systems (iPOV), mapping the lineage of the Dual-Register Playbook design.
+
 
 ## Initiatives
 
