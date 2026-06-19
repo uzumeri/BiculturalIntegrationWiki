@@ -48,8 +48,6 @@ Fix any errors and re-run until clean.
 
 #### Step 5 — Commit
 ```bash
-git checkout -b wiki-bciingest-<document_stem>
 git add wiki/
 git commit -m "WIKI: Ingested <document_name> and compiled pages"
 ```
-Present the diff for merge approval.
