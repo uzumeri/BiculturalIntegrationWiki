@@ -22,7 +22,7 @@
 
 ## Pedagogy
 
-*   [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]] — Details the founder's academic research into ISO 9001 quality standardization and empirical training systems (iPOV), mapping the lineage of the Dual-Register Playbook design.
+*   [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]] — Details Mustafa Uzumeri's academic research into ISO 9001 quality standardization and empirical training systems (iPOV), mapping the lineage of the Dual-Register Playbook design.
 
 
 ## Initiatives

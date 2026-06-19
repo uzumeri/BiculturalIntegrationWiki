@@ -8,19 +8,19 @@ status: "active"
 
 # instructional_design_pedagogy
 
-This document outlines the pedagogical and standardization background of the founder (Mustafa/Vic Uzumeri) in academic ISO 9001 research and industrial eLearning production. This empirical lineage forms the design foundation for [[wiki/pages/concepts/dual_register_playbook|Dual-Register Playbooks]].
+This document outlines the pedagogical and standardization background of Mustafa Uzumeri (also known as Vic Uzumeri) in academic ISO 9001 research and industrial eLearning production. This empirical lineage forms the design foundation for [[wiki/pages/concepts/dual_register_playbook|Dual-Register Playbooks]].
 
 ## 1. Academic Quality Research (ISO 9001)
 
-Between 1987 and 2012, the founder conducted extensive academic research focusing on how quality management systems could be standardized in the manufacturing industry:
+Between 1987 and 2012, Mustafa Uzumeri conducted extensive academic research focusing on how quality management systems could be standardized in the manufacturing industry:
 *   **The Contradiction**: Traditional academic management theory argued that organic management practices cannot be rigidly standardized without destroying operational agility. Yet, the rapid global expansion of the **ISO 9001** standard demonstrated that millions of companies could successfully comply and achieve certification.
-*   **Research & Findings**: Over 7–8 years of investigation, the founder analyzed the mechanisms of standardization, process audits, and organizational compliance, resolving the theoretical contradiction of how quality rules interact with actual shop-floor work.
+*   **Research & Findings**: Over 7–8 years of investigation, Mustafa Uzumeri analyzed the mechanisms of standardization, process audits, and organizational compliance, resolving the theoretical contradiction of how quality rules interact with actual shop-floor work.
 *   **Publications**: Authored 4 to 5 peer-reviewed journal articles accepted at leading publications in industrial engineering and operations management.
 *   **Aerospace Link**: This research directly feeds into the design of the **Expository Register** in bicultural playbooks, ensuring absolute alignment with strict audit frameworks (such as AS9100D, CAR 561, and Nadcap).
 
 ## 2. Industrial Technical Explanation (iPOV)
 
-From 1997 to 2014, the founder operated **iPOV**, an eLearning technology firm that developed and scaled technical training systems for Fortune 100 industrial firms (such as Michelin):
+From 1997 to 2014, Mustafa Uzumeri operated **iPOV**, an eLearning technology firm that developed and scaled technical training systems for Fortune 100 industrial firms (such as Michelin):
 *   **Scale**: Authored over **500 eLearning projects** and technical manuals detailing complex industrial processes, equipment safety, and quality checks.
 *   **Methodology**:
     *   *iPOV Processing Workflow*: A structured production flow using Adobe Creative Suite, SharePoint, and global freelancer teams that reduced conventional development times and costs by 75%.
