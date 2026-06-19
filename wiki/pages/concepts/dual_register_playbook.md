@@ -48,6 +48,10 @@ In Indigenous oral traditions, stories are not merely decorative framing; they a
 *   **Expository Instruction**: *Fisheries extraction quota compliance. Weirs must not block more than 50% of the channel. Extraction windows are bounded by seasonal spawning counts.* [[wiki/pages/sources/indigenous_languages_storytelling#L30-L30|Linguistic Traditions, §2]].
 *   **Narrative Translation**: A story of two fishers. The younger fisher blocks the narrows completely with a weir to maximize his immediate catch, laughing at the empty net of the older fisher. By the third spring, the younger has no fish. The older fisher, who only blocks the narrows halfway to let the spawn escape, notes: *"I never asked the river to feed me. I fed the river."* [[wiki/pages/sources/indigenous_languages_storytelling#L30-L32|Linguistic Traditions, §2]].
 
+### 3.3 Sub-Visual Special Process (Heat-Treating / Nadcap) SOP
+*   **Expository Instruction**: *Special process thermal validation. Temperature logs must be verified to prevent structural micro-fractures in aerospace fasteners.* [[wiki/pages/concepts/mfg_requirements#3-specialized-process-accreditation-nadcap|mfg_requirements, §3]].
+*   **Narrative Translation**: A story of two wood-curers. The younger brother dries his wood rapidly by the fire, producing a bow that looks identical to the uncle's bow cured slowly in the winter shade. In the winter cold, the green-cured bow explodes under tension. The uncle notes: *"You cannot see the cure on the outside of a finished bow, but the wood remembers how it was treated."* [[wiki/pages/sources/source_special_process_storytelling#1-the-bow-that-remembers-story|Special Process Storytelling]].
+
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->

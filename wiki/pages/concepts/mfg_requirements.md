@@ -56,6 +56,8 @@ These strict quality standards form the "expository audit baseline" for aerospac
 *   The **Expository Register** meets the audit requirements for AS9100D, CAR 561, and Nadcap.
 *   The **Narrative Register** translates these rules into relational, consequence-based storytelling containers compatible with traditional oral pedagogies.
 
+A concrete worked example of this translation is detailed in the wood-curing bow narrative, which explains the invisible vulnerability of heat-treating processes in terms of traditional wood-curing principles [[wiki/pages/sources/source_special_process_storytelling|Source Special Process Storytelling]].
+
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
