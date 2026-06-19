@@ -69,4 +69,22 @@ Initiatives are structured in two distinct investment phases to mitigate capital
 
 ---
 
+## 5. Stakeholder & Sponsoring Networks
+
+Broad implementation requires active coordination across several key contributor and funding stakeholder groups:
+
+### 5.1 Government Agencies
+*   **Federal & Provincial Envelopes**: Funding and operational resources from agencies supporting regional development, innovation, and digital infrastructure (e.g., Innovation, Science and Economic Development Canada [ISED], regional development agencies).
+*   **Procurement Mandates**: Leveraging government procurement channels and inclusive purchasing mandates to act as early stable demand anchors.
+
+### 5.2 Indigenous Organizations & Local Groups
+*   **Band Councils & Nations**: Local band councils and treaty associations serve as vital governance partners, providing direction on local capacity constraints, operational priorities, and sovereignty-gated data policies (OCAP).
+*   **Economic Development Corporations**: Indigenous-owned economic development corporations acting as lead commercial entities or co-investors in pilot platforms.
+
+### 5.3 Universities & Research Institutes
+*   **Academic Labs**: Research capacity, student co-ops, and internship placements from partner universities (e.g., Mount Royal University) utilizing Mitacs or SSHRC grants [[wiki/pages/sources/source_manyguns_roadmap#L23-L23|Source Manyguns Roadmap, §5]].
+*   **Innovation Hubs**: Incubation facilities, computing infrastructure, and access to software development tool suites.
+
+---
+
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
