@@ -18,22 +18,37 @@ This document outlines the resource constraints, technical team availability, le
 
 ---
 
-## 2. Remote Software Engineering Team (Ethiopian Dev Team)
+## 2. Platform Engineering Capacity
 
-The core platforms (Cosolvent, ClientSynth) are developed and maintained by a remote team funded out of the architect's personal resources:
+Core platform engineering is divided between a remote team funded out of the architect's personal resources and open-source contributions:
 
-*   **Team Composition**: Three software engineers based in Ethiopia.
+### 2.1 The Remote Engineering Team (Ethiopian Dev Team)
+*   **Team Composition**: Three software engineers based in Ethiopia who develop and maintain the core Cosolvent matching engine and ClientSynth simulation modules.
 *   **Capacity**: Part-time and evening work structured around their primary day-job commitments. Bandwidth is variable, bounded, and subject to local connectivity or professional scheduling constraints. The team is *not* instantly deployable for time-critical, live client projects.
-*   **Funding & Liability**: Funded via Upwork billing at $15 USD/hour, representing a burn rate of approximately $500–$800 USD/week. Because this is funded personally by the architect, local deployment entities carry **$0 in baseline core engine liability** during the design and simulation phases.
-*   **Succession**: Transition agreements ensure departing developers onboard replacements recruited from the talent pool or diaspora networks.
+*   **Funding**: Funded via Upwork billing at $15 USD/hour, representing a burn rate of approximately $500–$800 USD/week. Funded personally by the architect, leaving local deployment entities with **$0 in baseline core engine liability** during design and simulation.
+*   **Succession**: Transition agreements ensure departing developers assist with onboarding replacements recruited from regional talent networks.
+
+### 2.2 Open-Source Cosolvent Participation
+*   **Scope**: Since the Cosolvent matching engine is open-source, technical capacity can expand to include non-Ethiopian developers, independent software engineers, academic research students, and open-source contributors.
+*   **Integration**: Collaborative development is coordinated via the public GitHub repository, allowing developers to contribute features, audit algorithms, and build adapters for local database configurations.
 
 ---
 
-## 3. Leadership & Champion Requirements
+## 3. Leadership & Commercialization Incentives
 
-A market exchange cannot be successfully engineered from the outside. System operations require local operational custodians:
-*   **Operational CEO / Champion**: Each local initiative (e.g. precision manufacturing, classroom exchange) must have a dedicated leader, champion, or CEO who steps up from the affected stakeholders.
-*   **Governance role**: The architect will *not* assume this role. Core governance and platform access keys must reside with the community and local stakeholder champions.
+A market exchange cannot be successfully engineered from the outside. System operations require local operational custodians and commercial drivers:
+
+### 3.1 Operational CEO / Champion
+*   **Role**: Each local initiative (e.g., precision manufacturing, classroom exchange) must have a dedicated leader, champion, or CEO who steps up from the affected stakeholders.
+*   **Governance role**: The architect will *not* assume this role. Core governance, platform parameters, and decryption keys must reside with the community and local stakeholder champions.
+
+### 3.2 Commercialization & Startup Opportunity (The Founder's Incentive)
+*   **Startup Creation**: There is ample room for a local founder (ideally the defined project champion or CEO) to establish a commercial startup to monetize specialized portions of the initiative.
+*   **Commercializable Assets**: While the core Cosolvent engine remains open-source, proprietary value can be captured via:
+    *   Custom local user interfaces and integration adapters.
+    *   Specialized domain-specific RAG libraries (CommonContext).
+    *   Local facilitator placement services and custom onboarding training.
+*   **The Technical Carrot**: This commercial potential serves as a strong incentive ("carrot") to attract early-stage developers and designers who invest their time and intellect in the project in exchange for equity or early commercial roles in the emerging startup.
 
 ---
 
