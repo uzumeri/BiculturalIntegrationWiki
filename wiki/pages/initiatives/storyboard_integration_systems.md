@@ -1,6 +1,6 @@
 ---
 title: "storyboard_integration_systems"
-type: "entity"
+type: "initiative"
 industry: "bicultural-process-design"
 founding_year: 2026
 governance: "51%-Indigenous-owned-JV"

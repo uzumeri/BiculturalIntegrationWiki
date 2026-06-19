@@ -24,7 +24,7 @@ Use this workflow to ingest a document from any related workspace (e.g. Deeperpo
 #### Step 2 — Plan Edits
 Read `wiki/index.md` and existing pages. Identify:
 - Which `wiki/pages/concepts/` or `wiki/pages/protocols/` or `wiki/pages/pedagogy/` pages need creating or updating.
-- Which `wiki/pages/entities/` pages need creating or updating.
+- Which `wiki/pages/entities/` or `wiki/pages/initiatives/` pages need creating or updating.
 - Whether to create a `source` page, `story` page, or `reference` stub.
 
 Present the JSON plan to the user for confirmation. **Wait for approval before writing.**

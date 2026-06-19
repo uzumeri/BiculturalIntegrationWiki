@@ -12,7 +12,8 @@ This repository contains a local-first knowledge base designed to support the de
     *   `protocols/` — Treaty and Nation-specific protocols, calendars, and guidelines.
     *   `pedagogy/` — Narrative translations of industrial SOPs.
     *   `concepts/` — Cosolvent bicultural engine configurations and scheduling models.
-    *   `entities/` — Partner companies, institutions (like MRU), and community partners.
+    *   `initiatives/` — Specific business models, pilot projects, and startup designs.
+    *   `entities/` — Partner organizations, universities (like MRU), and community bodies.
     *   `sources/` — Ingested policy standards (TRC, OCAP).
     *   `stories/` — Scenarios and case studies.
 

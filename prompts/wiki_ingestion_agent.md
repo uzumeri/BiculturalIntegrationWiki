@@ -47,6 +47,7 @@ You must follow these rules strictly:
 
 1. **Classify the Source:**
    - Is this document stable intellectual or protocol content (theory, cultural protocols, onboarding pedagogy, matching concepts) → `source` page + concept/protocol/pedagogy updates.
+   - Is it a specific business design, pilot proposal, or project implementation → `source` page + `initiative` page creation/update.
    - Is it a narrative article or case study → `story` page.
    - Is it volatile delivery content (sprint roadmaps, developer timelines) → `reference` stub only.
 

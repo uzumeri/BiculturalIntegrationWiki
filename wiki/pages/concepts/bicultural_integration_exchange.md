@@ -8,7 +8,7 @@ last_processed: 2026-06-18
 
 # bicultural_integration_exchange
 
-The **Bicultural Integration Exchange** is a specialized matching and onboarding system designed to connect Indigenous workers with willing companies, resolving operational and cultural integration gaps via structured, protocol-guided software interventions [[wiki/pages/sources/source_bicultural_integration_exchange_system#L11-L16|Source Bicultural Integration Exchange System, §1]]. The system is commercialized and deployed by the [[wiki/pages/entities/storyboard_integration_systems|StoryBoard Integration Systems]] startup platform [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L27-L30|Source Onboarding Prospectus, §1]].
+The **Bicultural Integration Exchange** is a specialized matching and onboarding system designed to connect Indigenous workers with willing companies, resolving operational and cultural integration gaps via structured, protocol-guided software interventions [[wiki/pages/sources/source_bicultural_integration_exchange_system#L11-L16|Source Bicultural Integration Exchange System, §1]]. The system is commercialized and deployed by the [[wiki/pages/initiatives/storyboard_integration_systems|StoryBoard Integration Systems]] startup platform [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L27-L30|Source Onboarding Prospectus, §1]].
 
 ## 1. System Interventions (Bicultural Stack)
 

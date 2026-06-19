@@ -27,7 +27,7 @@ This page serves as a citation target for the business prospectus *Business Pros
 
 - [[wiki/pages/concepts/bicultural_integration_exchange]]
 - [[wiki/pages/concepts/dual_register_playbook]]
-- [[wiki/pages/entities/storyboard_integration_systems]]
+- [[wiki/pages/initiatives/storyboard_integration_systems]]
 
 ---
 

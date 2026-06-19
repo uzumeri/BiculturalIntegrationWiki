@@ -25,8 +25,8 @@ INDEX_FILE = WIKI_DIR / "index.md"
 LOG_FILE = WIKI_DIR / "log.md"
 
 # Bicultural allowed subdirs and types
-ALLOWED_TYPES = {"concept", "entity", "source", "story", "reference", "rfc", "proposal", "protocol", "pedagogy"}
-ALLOWED_SUBDIRS = {"concepts", "entities", "sources", "stories", "references", "rfcs", "proposals", "protocols", "pedagogy"}
+ALLOWED_TYPES = {"concept", "entity", "source", "story", "reference", "rfc", "proposal", "protocol", "pedagogy", "initiative"}
+ALLOWED_SUBDIRS = {"concepts", "entities", "sources", "stories", "references", "rfcs", "proposals", "protocols", "pedagogy", "initiatives"}
 SLUG_RE = re.compile(r"^[a-z0-9_]+$")
 LINK_RE = re.compile(r"\[\[(.*?)\]\]")
 
