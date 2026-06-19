@@ -26,6 +26,7 @@ Core platform engineering is divided between a remote team funded out of the arc
 *   **Team Composition**: Three software engineers based in Ethiopia who develop and maintain the core Cosolvent matching engine and ClientSynth simulation modules.
 *   **Capacity**: Part-time and evening work structured around their primary day-job commitments. Bandwidth is variable, bounded, and subject to local connectivity or professional scheduling constraints. The team is *not* instantly deployable for time-critical, live client projects.
 *   **Funding**: Funded via Upwork billing at $15 USD/hour, representing a burn rate of approximately $500–$800 USD/week. Funded personally by the architect, leaving local deployment entities with **$0 in baseline core engine liability** during design and simulation.
+*   **Government Funding Constraints**: The remote Ethiopian team may not be permitted to participate in certain Canadian projects if those projects rely on government funding. It is currently unclear if there is a cost or percentage participation threshold that would allow some strategic or advisory involvement.
 *   **Succession**: Transition agreements ensure departing developers assist with onboarding replacements recruited from regional talent networks.
 
 ### 2.2 Open-Source Cosolvent Participation
