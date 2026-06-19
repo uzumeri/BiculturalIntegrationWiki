@@ -8,7 +8,7 @@ last_processed: 2026-06-18
 
 # bicultural_integration_exchange
 
-The **Bicultural Integration Exchange** is a specialized matching and onboarding system designed to connect Indigenous workers with willing companies, resolving operational and cultural integration gaps via structured, protocol-guided software interventions [[wiki/pages/sources/source_bicultural_integration_exchange_system#L11-L16|Source Bicultural Integration Exchange System, §1]].
+The **Bicultural Integration Exchange** is a specialized matching and onboarding system designed to connect Indigenous workers with willing companies, resolving operational and cultural integration gaps via structured, protocol-guided software interventions [[wiki/pages/sources/source_bicultural_integration_exchange_system#L11-L16|Source Bicultural Integration Exchange System, §1]]. The system is commercialized and deployed by the [[wiki/pages/entities/storyboard_integration_systems|StoryBoard Integration Systems]] startup platform [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L27-L30|Source Onboarding Prospectus, §1]].
 
 ## 1. System Interventions (Bicultural Stack)
 
@@ -16,7 +16,7 @@ The system deploys four core AI interventions to address the frictions of indust
 
 ### 1.1 Dual-Register SOP Translation (Input Translation)
 *   **The Problem**: Companies operate under strict, expository SOPs (e.g. ISO-9001/AS-9100) that instruct *how* and *what* to do, but fail to motivate the tirelessness required in critical processes.
-*   **The Mechanism**: The platform uses **AI Input Translation** (modeled in [[wiki/pages/concepts/ai_intervention_capabilities|Capabilities]]) to pair corporate SOPs with a relational narrative register. The narrative translates dry compliance counts into relationships of stewardship, reciprocity, and duty to the end-user (see the aerospace tool control case study in [[wiki/pages/sources/indigenous_languages_storytelling|Storytelling Traditions]]).
+*   **The Mechanism**: The platform uses **AI Input Translation** (modeled in [[wiki/pages/concepts/ai_intervention_capabilities|Capabilities]]) to pair corporate SOPs with a relational narrative register, compiling them into a [[wiki/pages/concepts/dual_register_playbook|Dual-Register Playbook]] [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L27-L30|Source Onboarding Prospectus, §1]]. The narrative translates dry compliance counts into relationships of stewardship, reciprocity, and duty to the end-user (see the aerospace tool control case study in [[wiki/pages/sources/indigenous_languages_storytelling|Storytelling Traditions]]).
 *   **Application**: The compliance manual acts as the specification; the story acts as the internalization driver [[wiki/pages/sources/source_bicultural_integration_exchange_system#L21-L21|Source Bicultural Integration Exchange System, §2.1]].
 
 ### 1.2 Double-Blind Bicultural Content Match Stories (Trusted Intermediary)
