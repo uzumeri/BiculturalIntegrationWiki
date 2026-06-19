@@ -16,7 +16,7 @@ The playbook segregates standard documentation into two parallel tracks [[wiki/p
 
 ### 1.1 Expository Register (The Audit Baseline)
 *   **Form**: Expository, abstract, passive voice, rules-first, and atemporal.
-*   **Focus**: Instructs *what* to do and *how* to measure it. Represents the formal standard required for regulatory audits (such as AS-9100 or ISO-9001) [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L15-L16|Source Onboarding Prospectus, §1.1]].
+*   **Focus**: Instructs *what* to do and *how* to measure it. Represents the formal standard required for regulatory audits (such as the AS9100 or ISO-9001 aerospace standards detailed in [[wiki/pages/concepts/mfg_requirements|mfg_requirements]]) [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L15-L16|Source Onboarding Prospectus, §1.1]].
 *   **Failure Mode**: High cognitive load and alienation when used as the sole learning container, telling the worker the rules but failing to drive internal compliance under fatigue or pressure [[wiki/pages/sources/source_bicultural_onboarding_prospectus#L17-L19|Source Onboarding Prospectus, §1.1]].
 
 ### 1.2 Narrative Register (The Motivational Interface)
