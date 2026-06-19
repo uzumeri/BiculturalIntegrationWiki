@@ -14,8 +14,9 @@ This document outlines the dominant quality process standards and regulatory req
 
 Under Canadian law, any entity manufacturing or maintaining aeronautical products (aircraft, engines, components, or parts) must be certified by **Transport Canada Civil Aviation (TCCA)** and comply with the **Canadian Aviation Regulations (CARs)**:
 
-*   **CAR 561 (Approved Manufacturers)**: Applies to organizations manufacturing aeronautical products. It mandates that companies establish an approved **Production Control System** to monitor conformity to designs, alongside an independent **Quality Assurance (QA) Program** to audit the company's own operations.
-*   **CAR 573 (Approved Maintenance Organizations - AMO)**: Governs repair, overhaul, and modification of aerospace components. It requires companies to operate under a formal **Maintenance Policy Manual (MPM)** and implement a strict quality audit program.
+*   **CAR 561 (Approved Manufacturers)**: Applies to organizations manufacturing aeronautical products. It mandates that companies establish an approved **Production Control System** to monitor conformity to designs, alongside an independent **Quality Assurance (QA) Program** to audit the company's own operations. Reference: [CAR 561 Regulations Page](https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-433/page-74.html#h-766323).
+*   **CAR 573 (Approved Maintenance Organizations - AMO)**: Governs repair, overhaul, and modification of aerospace components. It requires companies to operate under a formal **Maintenance Policy Manual (MPM)** and implement a strict quality audit program. Reference: [CAR 573 Regulations Page](https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-433/page-81.html#h-770335).
+*   **Guidance Portal**: See the official [TCCA Aircraft Airworthiness Portal](https://tc.canada.ca/en/aviation/aircraft-airworthiness) for advisory circulars and compliance bulletins.
 
 ---
 
@@ -25,6 +26,7 @@ While Transport Canada oversees legal safety and airworthiness, global aerospace
 
 *   **AS9100D (Quality Management Systems - Requirements for Aviation, Space and Defense Organizations)**: The absolute baseline QMS standard for aerospace manufacturing. Built on top of ISO 9001, it adds strict requirements for configuration management, product safety, risk management, counterfeit part prevention, and cradle-to-grave part traceability. It represents the formal expository ruleset that shop-floor narratives translate.
 *   **AS9110 / AS9120**: Siblings to AS9100, focusing on Aerospace Maintenance (MRO) facilities and Aerospace Distributors, respectively.
+*   **Administration Portal**: Managed by the International Aerospace Quality Group ([IAQG Official Website](https://iaqg.org)). Supplier certification records are verified using the [IAQG OASIS Database Portal](https://iaqg.org) (requires free user registration).
 
 ---
 
@@ -34,6 +36,7 @@ For manufacturing processes where final quality cannot be easily verified by non
 
 *   **Target Areas**: Heat treating, chemical processing (anodizing, plating), welding, non-destructive testing (NDT), composites, and coatings.
 *   **Prerequisite**: A manufacturer must have an active QMS certified to **AS9100** before they can undergo a Nadcap technical audit. OEMs require Nadcap accreditation for any supplier handling these high-risk special processes.
+*   **Administration Portal**: Managed by the Performance Review Institute ([PRI Portal](https://p-r-i.org)). Audit scheduling and the Qualified Manufacturers List (QML) are accessed through [eAuditNet](https://www.eauditnet.com) (requires free account registration).
 
 ---
 
@@ -43,6 +46,7 @@ Although not a quality standard in the traditional sense, the **Controlled Goods
 
 *   Administered by Public Services and Procurement Canada (PSPC) under the *Defence Production Act*.
 *   Any manufacturer handling military or dual-use equipment, strategic space technology, or sensitive technical data (e.g., blueprints or software codes subject to U.S. ITAR or Canadian export controls) must register and implement a strict security plan, personnel tracking, and facility access controls.
+*   **Official Portal**: Registration steps, compliance guidelines, and the registered entities database search are hosted on the [CGP Official Site](https://www.canada.ca/en/services/business/permits/controlled-goods.html).
 
 ---
 
