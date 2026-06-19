@@ -19,9 +19,19 @@ Industrial operations in high-reliability sectors require strict adherence to st
 This pilot project aims to develop and test bicultural documentation templates that pair audit-ready expository guidelines with relational, consequence-based storytelling registers. The project will establish a repeatable methodology for translating complex quality standards into traditional pedagogical structures, boosting compliance retention and workforce integration.
 
 ### 1.1 The Target Problem Example: The Invisible Failure
-The core challenge this pilot solves is illustrated by the "special process" case in aerospace manufacturing (such as titanium heat-treating):
-*   **The Friction**: Sub-visual transitions (molecular crystal structures) cannot be checked after machining without breaking the part. Standard SOPs rely on abstract checklists (e.g., "log furnace survey results hourly to comply with standard AC7108"), which feel like empty corporate bureaucracy, leading to compliance fatigue.
-*   **The Storytelling Goal**: Translate this rule into a relational narrative, such as the *wood-curing bow story* (where wood dried green by the fire looks perfect but explodes in the winter cold, compared to wood cured slowly in the shade). This story translates the technical standard into a relational promise of safety to passengers, helping the worker conceptualize that "the metal remembers how it was treated" and driving compliance through personal integrity rather than lists.
+The core operational risk this pilot solves is best illustrated by a "special process" (such as titanium heat-treating under AS9100D/Nadcap guidelines) which exhibits three distinct failure modes:
+1.  **Sub-Visual Transition (The Physical Problem)**: Unlike normal machining or assembly, a special process alters the physical properties of the material at a molecular level (crystal lattice alignment). A finished aerospace bolt looks identical whether it was heat-treated for the correct duration or rushed. Visual or dimensional inspection post-production cannot verify success; validation requires a destructive test, which destroys the product.
+2.  **Expository Alienation (The Pedagogical Problem)**: Standard SOP instructions are written in the passive, atemporal expository register (e.g., *"Record furnace temperature hourly to comply with aerospace standard AC7108"*). For workers coming from community-centered, oral tradition backgrounds, this feels like meaningless paperwork imposed by corporate auditors, causing cognitive fatigue and a disconnect from the real-world impact of the task.
+3.  **The High-Consequence Lag (The Safety Problem)**: If a worker cuts corners or fabricates a temperature log to hit production speed targets, the consequence is invisible on the shop floor. The failure only manifests far in the future when a landing gear bolt snaps under frozen landing stress, risking human lives.
+
+By translating this standard into a bicultural **Narrative Register**—the *wood-curing bow story* (where wood dried too fast next to the fire looks identical to winter-shade cured wood, but explodes in the freezing cold when pulled to hunt)—we bridge these three gaps. The narrative animates the metal (making the worker conceptualize that *"the metal remembers how it was treated"*) and shifts the compliance metric from a bureaucratic rule to a personal, relational promise of safety to passengers.
+
+### 1.2 Pilot Goals & Objectives
+Using the special process case study as our framing model, this pilot establishes four concrete goals:
+*   **Goal 1: Establish Cognitive Realism in Special Process Validation**: Replace abstract quality requirements with relational narratives across four target sectors (Aerospace, Automotive, Mining, Medical Devices). This ensures workers internalize sub-visual quality states (crystalline changes, weld penetration, seal boundaries) as active, physical histories that must be respected.
+*   **Goal 2: Quantifiably Reduce Technical Audit Deficiencies**: Target a measurable drop in non-conformance reports (NCRs) and audit exceptions by supplementing expository compliance records with a personal promise framework (shifting documentation from auditing compliance to relational responsibility).
+*   **Goal 3: Lower Onboarding and Qualification Barriers**: Accelerate shop-floor training times for new Indigenous hires while maintaining or increasing retention of complex quality specifications (like AS9100, IATF, ISO 13485) under shift fatigue.
+*   **Goal 4: Build a Scale-Ready Bicultural Standard Operating Procedure (SOP) Template**: Create a repeatable dual-register documentation format validated by quality assurance managers, ready for integration into standard corporate training environments.
 
 ---
 
@@ -60,10 +70,21 @@ The pilot operates under a highly leveraged, low-overhead model relying on three
     *   Coordinate access to federal procurement or regional development funding (e.g. ISED, BDC Indigenous programs).
 
 ### 3.4 AI-Driven Content Development & Elder Feedback Loop
-To ensure this bicultural training method can scale across multiple sites, the pilot establishes a closed-loop, semi-automated translation pipeline:
-*   **AI Drafting & Pattern Recognition**: Generative models will perform the heavy lifting. They will scan dry engineering checklists, process standards, and public bicultural archives to identify thematic patterns, matching quality regulations with potential oral narrative structures. 
-*   **Relational Elder Review**: Community Elders and knowledge keepers will review the AI-generated stories to check for cultural accuracy and treaty alignment.
-*   **Wiki Integration (Captured Opinions)**: Rather than storing Elder comments as static, document-by-document opinions (which remain siloed), an AI-driven parser will extract their critiques, corrections, and suggested themes. These insights are structured and fed directly back into the central wiki database. This refines the core instruction templates and improves the quality of future AI-generated storytelling.
+Scaling bicultural documentation across hundreds of highly specialized industrial procedures is impossible with manual drafting alone. The pilot addresses this through a semi-automated, closed-loop pipeline where AI performs the heavy lifting of pattern recognition and narrative development under strict human-in-the-loop cultural governance:
+
+```mermaid
+graph TD
+    A["Engineering SOPs / Quality Regulations"] -->|AI Pattern Recognition & Drafting| B["Draft Dual-Register Playbook (Narratives)"]
+    B -->|Human-in-the-Loop Review| C["Elder / Knowledge Keeper Governance"]
+    C -->|Transcripts & Recording Notes| D["AI Parser / Synthesizer"]
+    D -->|Extract Generalized Motifs & Constraints| E["Central Bicultural Integration Wiki"]
+    E -->|Update Prompt Rules & Concept Templates| A
+```
+
+*   **AI-Driven Drafting & Pattern Recognition**: Generative AI models analyze complex engineering standards (e.g., Nadcap heat-treat specs, sterile mold tolerances) and identify underlying structural motifs (e.g., invisible parameters, delayed consequences, strict synchronization). The AI then parses public bicultural archives and oral history databases to match these motifs to appropriate cultural storytelling frames (such as wood-curing, animal migration patterns, or tool stewardship), drafting candidate dual-register SOPs.
+*   **Elders and Knowledge Keepers Review (Cultural Governance)**: To ensure safety and cultural protection (complying with OCAP data sovereignty principles), all draft narratives are reviewed by community Elders and knowledge keepers. The Elders do not need to parse technical specifications; instead, they audit the generated stories for authenticity, linguistic precision, treaty context, and cultural safety.
+*   **Feedback Synthesis (Banning Document-by-Document Opinions)**: Rather than letting reviews degenerate into isolated, static "document-by-document" opinion sheets that reside in silos, the Elder review sessions are treated as structured training inputs. An AI synthesizer parses the raw review transcripts and notes to extract generalizable constraints, preferred metaphors, disallowed themes, and storytelling rules.
+*   **Dynamic Wiki Ingestion**: The synthesized rules and the validated stories are automatically fed back into the central Bicultural Integration Wiki (`wiki/pages/concepts/` and `wiki/pages/sources/`). This updates the core prompt guidelines and playbook templates. Subsequent AI generation cycles automatically inherit these corrections, ensuring the system continuously self-corrects and improves without manually rewriting every instruction.
 
 ---
 
