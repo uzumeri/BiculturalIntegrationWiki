@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Synced source file staging area (re-fetched by sync_sources.py on demand)
+/sources/
+
+# Obsidian workspace state (machine-specific, not committed)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugin binaries (regenerated on install — commit manifests only)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css

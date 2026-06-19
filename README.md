@@ -18,8 +18,28 @@ This repository contains a local-first knowledge base designed to support the de
 
 ## Tooling & Verification
 
-The wiki is designed to be opened in **Obsidian** or indexed by LLM coding agents.
-Ensure all files are written in Markdown with standard wiki link mappings.
+The wiki includes automated tools to sync source documents and validate integrity:
+
+### 1. Synchronization (`sync_manifest.yaml`)
+We sync intellectual files (like bicultural onboarding guides, templates, and analysis papers) from the upstream `DeeperpointBusiness` workspace. To fetch or update source files, run:
+```bash
+python scripts/sync_sources.py
+```
+This script will resolve mappings locally within the active workspace first (or download via the GitHub API if offline).
+
+### 2. Ingestion (`/wiki-ingest`)
+Once files are synced into the `sources/` directory, use the custom `/wiki-ingest` slash command to read, classify, and build/update concepts, protocols, or pedagogy pages:
+```
+/wiki-ingest sources/2026-06-18-bicultural-onboarding-prospectus.md
+```
+
+### 3. Validation
+A local validation script ensures structure, frontmatter schemas, and wikilinks are robust:
+```bash
+python scripts/validate_wiki.py
+```
+
+The wiki is fully compatible with **Obsidian** (open the repository folder as a vault).
 
 ---
 

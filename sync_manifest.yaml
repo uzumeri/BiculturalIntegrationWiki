@@ -1,0 +1,92 @@
+# sync_manifest.yaml
+# Defines which source documents are pulled into BiculturalIntegrationWiki/sources/ by sync_sources.py.
+#
+# Classification:
+#   ingest  — stable intellectual content; pulled and queued for /wiki-ingest
+#   reference — volatile delivery content; only metadata tracked (no file pull)
+#
+# Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.
+
+sources:
+
+  # ── Bicultural Integration Exchange System (DeeperpointBusiness) ───────
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Analysis/2026-06-18-bicultural-integration-exchange-system.md
+    branch: main
+    target: sources/2026-06-18-bicultural-integration-exchange-system.md
+    classification: ingest
+    branch_track: main
+    note: "Core Cosolvent bicultural integration exchange design analysis."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Analysis/2026-06-18-bicultural-onboarding-prospectus.md
+    branch: main
+    target: sources/2026-06-18-bicultural-onboarding-prospectus.md
+    classification: ingest
+    branch_track: main
+    note: "Prospectus for the StoryBoard integration startup."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Analysis/2026-06-18-storyboard-competitive-landscape.md
+    branch: main
+    target: sources/2026-06-18-storyboard-competitive-landscape.md
+    classification: ingest
+    branch_track: main
+    note: "Competitive landscape of Indigenous integration SOP tools in Canada."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Analysis/Indigenous-languages-and-storytelling-traditions.md
+    branch: main
+    target: sources/Indigenous-languages-and-storytelling-traditions.md
+    classification: ingest
+    branch_track: main
+    note: "Primary expert consultation notes on verb-centered grammar and storytelling pedagogy."
+
+  # ── Manyguns MRU Integration Templates (DeeperpointBusiness) ───────
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/thought-experiment-knowledge-exchange-roadmap.md
+    branch: main
+    target: sources/thought-experiment-knowledge-exchange-roadmap.md
+    classification: ingest
+    branch_track: main
+    note: "Roadmap for MRU / Manyguns Indigenous Knowledge Exchange model."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/platform-extension-methodology.md
+    branch: main
+    target: sources/platform-extension-methodology.md
+    classification: ingest
+    branch_track: main
+    note: "Technical framework detailing extension points of Cosolvent for custom bicultural applications."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/project-staffing-and-continuity-plan.md
+    branch: main
+    target: sources/project-staffing-and-continuity-plan.md
+    classification: ingest
+    branch_track: main
+    note: "Staffing model and developer ramp-up roadmap."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/cost-estimate-knowledge-exchange-roadmap.md
+    branch: main
+    target: sources/cost-estimate-knowledge-exchange-roadmap.md
+    classification: ingest
+    branch_track: main
+    note: "Estimated budget parameters for non-profit and educational track."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/revenue-diversification-analysis.md
+    branch: main
+    target: sources/revenue-diversification-analysis.md
+    classification: ingest
+    branch_track: main
+    note: "Strategic review of grant, donation, and partner funding sources."
+
+  - repo: DeeperPoint/DeeperpointBusiness
+    file: Outreach/contacts/manyguns-linda-mru/L2_Strategic/thought-experiment-review-critique.md
+    branch: main
+    target: sources/thought-experiment-review-critique.md
+    classification: ingest
+    branch_track: main
+    note: "Critical analysis of implementation failure modes and OCAP violations."
