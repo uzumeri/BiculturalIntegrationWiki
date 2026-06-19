@@ -27,10 +27,10 @@ python scripts/sync_sources.py
 ```
 This script will resolve mappings locally within the active workspace first (or download via the GitHub API if offline).
 
-### 2. Ingestion (`/wiki-ingest`)
-Once files are synced into the `sources/` directory, use the custom `/wiki-ingest` slash command to read, classify, and build/update concepts, protocols, or pedagogy pages:
+### 2. Ingestion (`/wiki-bciingest`)
+Once files are synced into the `sources/` directory, use the custom `/wiki-bciingest` slash command to read, classify, and build/update concepts, protocols, or pedagogy pages:
 ```
-/wiki-ingest sources/2026-06-18-bicultural-onboarding-prospectus.md
+/wiki-bciingest sources/2026-06-18-bicultural-onboarding-prospectus.md
 ```
 
 ### 3. Validation

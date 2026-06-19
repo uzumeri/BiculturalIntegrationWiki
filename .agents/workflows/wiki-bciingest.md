@@ -2,14 +2,14 @@
 description: Ingest a source document into the Bicultural Integration Exchange Wiki
 ---
 
-# /wiki-ingest — Ingest Document into the Bicultural Integration Wiki
+# /wiki-bciingest — Ingest Document into the Bicultural Integration Wiki
 
 Use this workflow to ingest a document from any related workspace (e.g. DeeperpointBusiness, DeeperPointWiki) into this bicultural wiki.
 
 ### How to invoke
 
-> `/wiki-ingest /Users/mustafauzumeri/Documents/GitHub/DeeperpointBusiness/Analysis/2026-06-18-bicultural-onboarding-prospectus.md`
-> `/wiki-ingest /Users/mustafauzumeri/Documents/GitHub/DeeperpointBusiness/Analysis/2026-06-18-storyboard-competitive-landscape.md`
+> `/wiki-bciingest /Users/mustafauzumeri/Documents/GitHub/DeeperpointBusiness/Analysis/2026-06-18-bicultural-onboarding-prospectus.md`
+> `/wiki-bciingest /Users/mustafauzumeri/Documents/GitHub/DeeperpointBusiness/Analysis/2026-06-18-storyboard-competitive-landscape.md`
 
 ---
 
@@ -48,7 +48,7 @@ Fix any errors and re-run until clean.
 
 #### Step 5 — Commit
 ```bash
-git checkout -b wiki-ingest-<document_stem>
+git checkout -b wiki-bciingest-<document_stem>
 git add wiki/
 git commit -m "WIKI: Ingested <document_name> and compiled pages"
 ```
