@@ -85,6 +85,10 @@ Broad implementation requires active coordination across several key contributor
 *   **Academic Labs**: Research capacity, student co-ops, and internship placements from partner universities (e.g., Mount Royal University) utilizing Mitacs or SSHRC grants [[wiki/pages/sources/source_manyguns_roadmap#L23-L23|Source Manyguns Roadmap, §5]].
 *   **Innovation Hubs**: Incubation facilities, computing infrastructure, and access to software development tool suites.
 
+### 5.4 Commercial & Private Sector Partners
+*   **Industry Sponsors & Partners**: Private enterprises and industry coalitions interested in securing resilient local supply chains, bicultural talent, or specialized co-production arrangements.
+*   **Knowledge & Network Access**: Strategic partners providing specialized domain knowledge, data access, integration bridges to legacy software systems, and industry-specific market networks.
+
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
