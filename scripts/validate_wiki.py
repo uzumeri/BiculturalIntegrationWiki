@@ -60,8 +60,11 @@ def validate_wiki() -> bool:
             except ValueError:
                 sub_cat = ""
 
-            if sub_cat not in ALLOWED_SUBDIRS:
-                log_error(path, f"File must be in one of {ALLOWED_SUBDIRS}. Found: '{sub_cat}'.")
+            sub_cat_parts = Path(sub_cat).parts if sub_cat else ()
+            top_dir = sub_cat_parts[0] if sub_cat_parts else ""
+
+            if top_dir not in ALLOWED_SUBDIRS:
+                log_error(path, f"File must be in one of {ALLOWED_SUBDIRS}. Found top-level: '{top_dir}' (full: '{sub_cat}').")
                 errors += 1
 
             slug = f"{sub_cat}/{stem}" if sub_cat else stem

@@ -21,7 +21,13 @@
 
 *   [[wiki/pages/initiatives/manyguns_knowledge_exchange|manyguns_knowledge_exchange]] — Five-stage pilot plan to match Treaty 7 keepers into MRU classrooms, utilizing honoraria bridging and decentralized OCAP nodes.
 *   [[wiki/pages/initiatives/storyboard_integration_systems|storyboard_integration_systems]] — Strategic profile of the bicultural SOP translation and placement joint venture, detailing audits, playbooks, pooled facilitators, and stack configurations.
+*   [[wiki/pages/initiatives/storyboard_playbooks/index|storyboard_playbooks]] — Dual-Register SOP Translation initiative, pairing dry, expository safety specifications with relational, consequence-based storytelling registers.
+*   [[wiki/pages/initiatives/double_blind_matching/index|double_blind_matching]] — Progressive disclosure matching pipeline mapping narrative experiences to equivalent industrial capabilities.
+*   [[wiki/pages/initiatives/facilitator_pooling/index|facilitator_pooling]] — Shared virtual capacity model pooling independent Elders and HR specialists for SME onboarding support.
+*   [[wiki/pages/initiatives/dynamic_scheduling/index|dynamic_scheduling]] — Capacity-pooling scheduler overlay coordinating peer-to-peer shift rotations to bridge temporal commitments.
+*   [[wiki/pages/initiatives/platform_commons/index|platform_commons]] — Ostrom-based data sovereignty and cooperative governance framework for the bicultural integration exchange.
 
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
+
