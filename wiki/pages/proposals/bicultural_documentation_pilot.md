@@ -18,6 +18,11 @@ Industrial operations in high-reliability sectors require strict adherence to st
 
 This pilot project aims to develop and test bicultural documentation templates that pair audit-ready expository guidelines with relational, consequence-based storytelling registers. The project will establish a repeatable methodology for translating complex quality standards into traditional pedagogical structures, boosting compliance retention and workforce integration.
 
+### 1.1 The Target Problem Example: The Invisible Failure
+The core challenge this pilot solves is illustrated by the "special process" case in aerospace manufacturing (such as titanium heat-treating):
+*   **The Friction**: Sub-visual transitions (molecular crystal structures) cannot be checked after machining without breaking the part. Standard SOPs rely on abstract checklists (e.g., "log furnace survey results hourly to comply with standard AC7108"), which feel like empty corporate bureaucracy, leading to compliance fatigue.
+*   **The Storytelling Goal**: Translate this rule into a relational narrative, such as the *wood-curing bow story* (where wood dried green by the fire looks perfect but explodes in the winter cold, compared to wood cured slowly in the shade). This story translates the technical standard into a relational promise of safety to passengers, helping the worker conceptualize that "the metal remembers how it was treated" and driving compliance through personal integrity rather than lists.
+
 ---
 
 ## 2. Industry Targets & Core Quality Standards
@@ -53,6 +58,12 @@ The pilot operates under a highly leveraged, low-overhead model relying on three
     *   Open doors to target manufacturing companies and mine sites.
     *   Engage local Band Councils and Treaty associations for community consent and OCAP compliance [[wiki/pages/concepts/available_resources#52-indigenous-organizations--local-groups|available_resources, §5.2]].
     *   Coordinate access to federal procurement or regional development funding (e.g. ISED, BDC Indigenous programs).
+
+### 3.4 AI-Driven Content Development & Elder Feedback Loop
+To ensure this bicultural training method can scale across multiple sites, the pilot establishes a closed-loop, semi-automated translation pipeline:
+*   **AI Drafting & Pattern Recognition**: Generative models will perform the heavy lifting. They will scan dry engineering checklists, process standards, and public bicultural archives to identify thematic patterns, matching quality regulations with potential oral narrative structures. 
+*   **Relational Elder Review**: Community Elders and knowledge keepers will review the AI-generated stories to check for cultural accuracy and treaty alignment.
+*   **Wiki Integration (Captured Opinions)**: Rather than storing Elder comments as static, document-by-document opinions (which remain siloed), an AI-driven parser will extract their critiques, corrections, and suggested themes. These insights are structured and fed directly back into the central wiki database. This refines the core instruction templates and improves the quality of future AI-generated storytelling.
 
 ---
 
