@@ -14,6 +14,7 @@
 | 2026-06-19 | CONCEPT | Ingested and created `concepts/mfg_requirements` outlining Canadian aerospace quality standards (AS9100, CAR 561/573, Nadcap, CGP). |
 | 2026-06-19 | INGEST | Ingested `sources/special_process_storytelling` explaining aerospace special processes through the relational wood-curing bow narrative. |
 | 2026-06-19 | PEDAGOGY | Created `pedagogy/instructional_design_pedagogy` documenting Mustafa Uzumeri's quality standards research (ISO 9001) and eLearning production history (iPOV) as the design lineage for playbooks. |
+| 2026-06-19 | PROPOSAL | Drafted multi-industry pilot project proposal (`proposals/bicultural_documentation_pilot`) targeting aerospace, automotive, mining, and medical device sectors. |
 
 ---
 

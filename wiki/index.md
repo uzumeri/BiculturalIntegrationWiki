@@ -35,6 +35,10 @@
 *   [[wiki/pages/initiatives/dynamic_scheduling/index|dynamic_scheduling]] — Capacity-pooling scheduler overlay coordinating peer-to-peer shift rotations to bridge temporal commitments.
 *   [[wiki/pages/initiatives/platform_commons/index|platform_commons]] — Ostrom-based data sovereignty and cooperative governance framework for the bicultural integration exchange.
 
+## Proposals
+
+*   [[wiki/pages/proposals/bicultural_documentation_pilot|bicultural_documentation_pilot]] — Draft proposal for a multi-industry pilot project to design, validate, and deploy bicultural industrial process documentation (Dual-Register Playbooks) across aerospace, automotive, mining, and medical device sectors.
+
 ---
 
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
