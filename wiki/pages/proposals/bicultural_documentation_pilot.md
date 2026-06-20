@@ -1,14 +1,6 @@
----
-title: "bicultural_documentation_pilot"
-type: "proposal"
-topics: [bicultural-design, aerospace, automotive, mining, medical-devices, capacity-building, funding]
-sources: []
-status: "draft"
-version: "1.0"
-last_processed: 2026-06-19
----
+<!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
 
-# bicultural_documentation_pilot
+# Bicultural Process Documentation Pilot
 
 This document outlines a proposal for a multi-industry pilot project to design, validate, and deploy bicultural industrial process documentation and training systems. This pilot applies the [[wiki/pages/concepts/dual_register_playbook|Dual-Register Playbook]] framework across key process activities in the aerospace, automotive, mining, and medical device sectors.
 
@@ -144,6 +136,7 @@ graph TD
     *   Form the project coalition (Mustafa Uzumeri, Trent University program leads, strategic policy advisors).
     *   Identify partner manufacturing and mining companies willing to host the pilot.
     *   Select one specific SOP per sector (e.g. aerospace titanium heat-treatment, automotive chassis welding).
+    *   **AI-Assisted Operations**: Leverage generative AI tools to rapidly analyze, compare, and summarize complex industrial safety SOPs across potential partner sites, helping the team quickly identify and target the highest-friction procedures for the pilot. Use AI to assist in drafting initial storyboard briefs and alignment documents.
 *   **Revision Trigger**: Review and sign-off by partner company quality managers and Trent research coordinators.
 
 ### Phase 2: Dual-Register Storyboarding & Design (Version 2.x)
@@ -165,6 +158,17 @@ graph TD
     *   Monitor shift compliance rates, non-conformance logs, and training completion times.
     *   Assemble a final project report for government and industry sponsors (seeking funding for Phase 2 production scaling) [[wiki/pages/concepts/available_resources#42-phase-2-production-system-deployment|available_resources, §4.2]].
 *   **Revision Trigger**: Post-pilot project debrief and optimization for the next site iteration.
+
+### 4.5 AI Technology, Cost, and Risk Profile by Phase
+
+To manage organizational complexity and budgeting, the level of AI intervention increases incrementally across the phases. This phased approach minimizes upfront technical risk and aligns expenditure with verified milestones.
+
+| Phase | AI Support Level | AI Technology Focus | Work & Development Effort | Expense Profile | Technical & Operational Risk |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Phase 1: Alignment** | **Medium** | AI-assisted research, idea assembly, and pilot plan drafting (analyzing target SOP profiles). | Low (Prompt engineering, document processing) | **Very Low** (Standard LLM/API subscription costs) | **Very Low** (Design-stage support only; no operational risk) |
+| **Phase 2: Storyboarding** | **Medium** | Generative LLM drafting; processing and parsing Elder review transcripts. | Moderate (Template prompt design, transcription parsers) | **Low to Moderate** (API usage tokens, pipeline scripting) | **Low to Medium** (Mitigated by mandatory human-in-the-loop Elder review) |
+| **Phase 3: Validation** | **High** | Multi-agent user simulations (e.g., ClientSynth) and automated compliance cross-referencing. | High (Simulation testbed construction, multi-agent scripting) | **Moderate to High** (Development costs, high token usage) | **High** (Simulation accuracy vs. real-world behavior, compliance mapping complexity) |
+| **Phase 4: Deployment** | **High** | Adaptive LMS integration, digital twins, and continuous feedback tuning from live shop-floor audit data. | High (Enterprise systems integration, sovereign OCAP data storage setup) | **High** (Production software development, secure server hosting) | **High** (Operational compliance, data sovereignty, integration with production systems) |
 
 ## 5. Academic Rigor & Long-Term Scaling Vision
 

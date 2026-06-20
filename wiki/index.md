@@ -37,7 +37,9 @@
 
 ## Proposals
 
-*   [[wiki/pages/proposals/bicultural_documentation_pilot|bicultural_documentation_pilot]] — Draft proposal for a multi-industry pilot project to design, validate, and deploy bicultural industrial process documentation (Dual-Register Playbooks) across aerospace, automotive, mining, and medical device sectors.
+*   [[wiki/pages/proposals/bicultural_documentation_pilot|Bicultural Process Documentation Pilot]] — Draft proposal for a multi-industry pilot project to design, validate, and deploy bicultural industrial process documentation (Dual-Register Playbooks) across aerospace, automotive, mining, and medical device sectors.
+*   [[wiki/pages/proposals/double_blind_match_pilot|Double-Blind Bicultural Content Match Pilot]] — Draft proposal for a pilot project to design, validate, and deploy a Double-Blind Bicultural Content Match Stories placement engine.
+*   [[wiki/pages/proposals/platform_commons_pilot|Ostrom-Based Platform Commons Pilot]] — Draft proposal for a pilot project to design, validate, and deploy a decentralized, cooperative governance architecture based on Elinor Ostrom's commons design principles.
 
 ---
 

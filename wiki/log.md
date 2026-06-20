@@ -15,6 +15,8 @@
 | 2026-06-19 | INGEST | Ingested `sources/special_process_storytelling` explaining aerospace special processes through the relational wood-curing bow narrative. |
 | 2026-06-19 | PEDAGOGY | Created `pedagogy/instructional_design_pedagogy` documenting Mustafa Uzumeri's quality standards research (ISO 9001) and eLearning production history (iPOV) as the design lineage for playbooks. |
 | 2026-06-19 | PROPOSAL | Drafted multi-industry pilot project proposal (`proposals/bicultural_documentation_pilot`) targeting aerospace, automotive, mining, and medical device sectors. |
+| 2026-06-20 | PROPOSAL | Drafted double-blind match engine pilot proposal (`proposals/double_blind_match_pilot`) executing the progressive trust matching concept. |
+| 2026-06-20 | PROPOSAL | Drafted Ostrom-based platform commons governance pilot proposal (`proposals/platform_commons_pilot`) executing the decentralized cooperative governance concept. |
 
 ---
 
