@@ -91,8 +91,10 @@ The pilot will select one critical "special process" or high-risk activity from 
 The pilot operates under a highly leveraged, low-overhead model relying on three key participant groups:
 
 ### 3.1 Architect & Methodology Lead (Mustafa Uzumeri)
-*   **Role**: Guides system design, provides the instructional design templates (drawing on 500+ iPOV eLearning projects), and structures the expository standards matching (drawing on academic ISO 9001 research) [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]].
-*   **Bandwidth Constraint**: Time is available free of charge in modest quantities for architectural guidance, templates structure, and verification, but is strictly capped to prevent direct operational delivery loads [[wiki/pages/concepts/available_resources#1-architect-bandwidth-mustafa-uzumeri|available_resources, §1]].
+*   **Role & Core Background**: Guides system design, provides the foundational dual-register instructional design templates, and structures the expository standards mapping [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]]. This methodology draws directly on Mustafa Uzumeri's unique background spanning academic systems research and large-scale industrial training:
+    *   *Quality Systems Expertise*: Spent nearly a decade studying the design concepts and practical operational impact of the ISO 9001 family of management system standards for quality. These standards serve as the core structural underpinnings of almost all modern high-reliability industrial quality systems (including AS9100D, IATF 16949, and ISO 13485).
+    *   *eLearning Production at Scale*: Through iPOV (ipov.net), authored approximately 500 video-based eLearning projects for Fortune 100 industrial corporations in the US, including hundreds of specialized modules focused directly on shop-floor plant operations, machine safety, and technical quality controls.
+*   **Bandwidth Constraint**: Time is available free of charge in modest quantities for architectural guidance, template structuring, and validation verification, but is strictly capped to prevent direct operational delivery loads [[wiki/pages/concepts/available_resources#1-architect-bandwidth-mustafa-uzumeri|available_resources, §1]].
 
 ### 3.2 Academic Storytelling Analysts (Trent University Indigenous Studies)
 *   **Role**: Students from Trent University, ON (enrolled in Indigenous Studies or Bicultural Programs) will act as co-op or course-grade interns:
