@@ -62,25 +62,26 @@ Using the bicultural matching framework, this pilot establishes four concrete go
 *   **Goal 3: Increase 90-Day Retention Rates**: Target a measurable increase in 90-day employee retention by pre-integrating the match with dynamic scheduling and Shared Facilitators [[wiki/pages/concepts/shadow_capacity|shadow_capacity]].
 *   **Goal 4: Enforce OCAP Data Sovereignty**: Ensure all candidate narrative profiles are stored on sovereign, community-controlled databases [[wiki/pages/concepts/platform_governance_models|platform_governance_models]].
 
-### 1.4 Technical Leverage: DeeperPoint & Market Physics
+### 1.4 Diagnostic Foundation: DeeperPoint Market Physics
 
-This pilot does not require building a custom matching engine or simulation framework from scratch, which drastically reduces initial development costs, timeline, and execution risk. Instead, it directly leverages the existing DeeperPoint open-source technology stack and structural theories:
-*   **The Cosolvent Matching Engine**: The pilot uses DeeperPoint's core **Cosolvent** matching protocol to handle double-blind, multi-entity optimization (matching Candidates, Employers, and Facilitators simultaneously). This open-source codebase serves as a functional foundation, shifting the work from software development to configuration and tuning.
-*   **ClientSynth Simulation Harness**: Rather than testing matches on live candidates and employers first—which carries high reputational and operational risk—the pilot uses **ClientSynth** to run thousands of simulated matching runs with synthetic candidate and company agents, validating matching accuracy in Phase 3 prior to physical deployment.
-*   **The Market Physics Framework**: DeeperPoint's thin market theory guides the diagnostic design, specifically identifying and mitigating known resistance forces like **Opacity** (unrecognized skills), **Temporal Distance** (flexible scheduling), and **Cognitive Bandwidth** (onboarding overhead). This prevents the pilot from building features that do not map to actual transactional bottlenecks.
+This pilot applies the DeeperPoint **thin market diagnostic methodology** to systematically identify which structural friction forces block Indigenous workforce integration through standard hiring channels. Using the 11-challenge taxonomy from DeeperPoint's Intervention Matrix, the pilot targets three specific resistance forces:
+*   **Opacity**: Narrative and experiential work histories are structurally invisible to conventional ATS and HR screening systems, filtering out high-capability candidates.
+*   **Cognitive Bandwidth**: Hiring managers lack the structured frameworks to evaluate non-traditional experience, creating decision paralysis and defaulting to familiar credential patterns.
+*   **Temporal Distance**: Post-placement retention failures stem from rigid scheduling that cannot accommodate seasonal and ceremonial obligations, creating a friction force that standard onboarding ignores.
+
+The DeeperPoint research program has produced open-source tools — including the **Cosolvent** matching engine and **ClientSynth** simulation harness — that can accelerate implementation in later phases. Cosolvent's double-blind, consent-gated matching protocol is architecturally aligned with this pilot's progressive trust model. ClientSynth enables risk-free simulation of matching accuracy before live deployment. However, the pilot's methodology and diagnostic approach stand independently of any specific software platform; these tools reduce cost and timeline but are not prerequisites.
 
 ---
 
 ## 2. Industry Targets & Core Matching Scenarios
 
-The pilot will target entry-to-intermediate technical and operational roles across four high-reliability sectors:
+The pilot focuses on two primary sectors — **aerospace** and **mining** — where Indigenous workforce proximity, role volume, and the specificity of competency translation create the strongest conditions for validation. Automotive is retained as a secondary expansion target.
 
 | Industry Sector | Target Roles | Candidate Translation Area | Partner Readiness Requirement |
 |---|---|---|---|
-| **Aerospace** | Inventory Specialists, Material Control, Assembly Tech | Mapping hunting precision, traditional carving, and tool care to AS9100 quality/tool audits. | Commitment to host a local Shared Facilitator. |
-| **Automotive** | Assembly Logistics, Fleet Sourcing, Team Leads | Mapping community coordination and seasonal harvest logistics to parts supply chains. | Agreement to participate in peer-to-peer shift rotation scheduling. |
-| **Mining** | Conveyor Safety Monitors, Equipment Operators | Mapping land navigation, survival logistics, and environmental tracking to site safety. | Openness to coordinate with Band Councils on safety oversight. |
-| **Medical Devices** | Sterile Packaging Assemblers, Cleanroom Inspectors | Mapping traditional weaving/sewing details to sterile seal inspections (ISO 13485). | Custom training templates that support bicultural playbooks. |
+| **Aerospace** (Primary) | Inventory Specialists, Material Control, Assembly Tech | Mapping hunting precision, traditional carving, and tool care to AS9100 quality/tool audits. | Commitment to host a local Shared Facilitator. |
+| **Mining** (Primary) | Conveyor Safety Monitors, Equipment Operators | Mapping land navigation, survival logistics, and environmental tracking to site safety. | Openness to coordinate with Band Councils on safety oversight. |
+| **Automotive** (Secondary) | Assembly Logistics, Fleet Sourcing, Team Leads | Mapping community coordination and seasonal harvest logistics to parts supply chains. | Agreement to participate in peer-to-peer shift rotation scheduling. |
 
 ---
 
@@ -92,18 +93,23 @@ The pilot operates under a low-overhead model relying on three key participant g
 *   **Role & Core Background**: Designs the matching ontology, structures the translation rules, and oversees technical alignment. Mustafa Uzumeri's experience in building structured corporate training and process validation programs ensures the translated competencies directly satisfy formal quality standards.
 *   **Bandwidth Constraint**: Architectural guidance and validation oversight only; no direct day-to-day placement operations [[wiki/pages/concepts/available_resources|available_resources]].
 
-### 3.2 Academic Recruitment Analysts (Trent University Indigenous Studies)
-*   **Role**: Students from Trent University will act as interns to:
+### 3.2 Academic Recruitment Analysts (Trent University & Mount Royal University)
+*   **Role**: Students from Trent University, ON and Mount Royal University, AB will act as interns to:
     *   Work with candidates to collect narrative histories and experiential descriptions.
     *   Iterate on the AI-generated bicultural translations to ensure linguistic accuracy and respect.
     *   Draft company relational profiles based on workplace safety and scheduling policies.
+*   **Institutional Relationships**: Dr. Don McCaskill (Trent University) and Dr. Linda Manyguns (Mount Royal University) have expressed strong interest in exploring possible projects through their respective institutions. Both bring decades of experience in Indigenous education and bicultural programming, and their 40-year professional collaboration provides a uniquely strong academic foundation for this work.
 *   **Funding**: Funded through co-op and research envelopes (SSHRC, Mitacs).
 
 ### 3.3 Strategic Access Facilitators
-*   **Role**: Indigenous employment officers, Band Council representatives, and regional training consultants who:
+*   **Founding Coalition**: The pilot benefits from an established network of collaborators with deep roots in both Indigenous communities and institutional networks:
+    *   **Michael Thrasher** (4 Skies Energy Solutions, Six Nations of the Grand River): Community and industry bridge, providing direct access to First Nations governance structures and industrial partnerships.
+    *   **Dr. Linda Manyguns** (Mount Royal University): Academic and institutional facilitator with extensive networks in Treaty 7 communities and Alberta’s educational institutions.
+    *   **Dr. Don McCaskill** (Trent University): Academic and policy facilitator with deep relationships across Ontario First Nations communities and federal Indigenous policy networks.
+*   **Role**: These facilitators, drawing on 40 years of collaboration, along with Indigenous employment officers, Band Council representatives, and regional training consultants, will:
     *   Identify candidate pools and manage local community registry consent.
     *   Serve as the Shared Facilitator pool matching with the placements.
-    *   Audit the platform's data management to ensure OCAP compliance.
+    *   Audit the platform’s data management to ensure OCAP compliance.
 
 ### 3.4 AI-Driven Matching Pipeline
 The system operates as a progressive disclosure matching pipeline powered by AI under strict human-in-the-loop governance:
@@ -176,7 +182,7 @@ The pilot uses an incremental AI technology roadmap to minimize initial cost and
 To ensure the matching system provides permanent career paths and community-controlled economic development, the project has a clear scaling trajectory.
 
 ### 5.1 Academic Study & Research Process
-The pilot operates in tandem with a research study at Trent University:
+The pilot operates in tandem with a research study at Trent University or Mount Royal University:
 *   **Evaluation Metrics**: Compare bicultural matched candidates against standard placement control groups on onboarding time, 90-day attrition, and worker well-being.
 *   **Linguistic Mapping Research**: Document the effectiveness of translating narrative experiences to corporate competencies, contributing to the academic literature on bicultural HR practices.
 

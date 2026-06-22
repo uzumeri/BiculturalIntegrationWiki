@@ -4,6 +4,8 @@
 
 This document outlines a proposal for a pilot project to design, validate, and deploy a decentralized, cooperative governance architecture for the Bicultural Integration Exchange. This pilot executes the **Ostrom-Based Platform Commons** model described in [[wiki/pages/concepts/platform_governance_models|platform_governance_models]], applying Elinor Ostrom’s eight principles for managing common-pool resources (CPRs) to ensure data sovereignty, community trust, and absolute compliance with OCAP principles.
 
+> **Sequencing Note:** This pilot is designed to be executed *after* the foundational work established by the [[wiki/pages/proposals/bicultural_documentation_pilot|Bicultural Process Documentation Pilot]] and the [[wiki/pages/proposals/double_blind_match_pilot|Double-Blind Bicultural Content Match Pilot]]. The commons governance architecture requires active candidate registries, employer relationships, and validated bicultural content to govern. Those precursor pilots create the participants, data assets, and operational relationships that this governance framework is built to protect and sustain.
+
 ---
 
 ## 1. Executive Summary
@@ -59,25 +61,26 @@ Using the Ostrom commons framework, this pilot establishes four concrete goals:
 *   **Goal 3: Establish a Localized Dispute Resolution Protocol**: Implement a structured conflict-resolution workflow managed by pooled facilitators, minimizing escalation costs.
 *   **Goal 4: Validate OCAP Audit Standards**: Achieve formal sign-off from community data officers, proving the platform meets strict Ownership, Control, Access, and Possession requirements.
 
-### 1.4 Technical Leverage: DeeperPoint & Market Physics
+### 1.4 Diagnostic Foundation: DeeperPoint Market Physics
 
-This pilot utilizes the DeeperPoint open-source technology stack and structural theories to drastically reduce development timelines and overhead:
-*   **The Cooperative Protocol Blueprints**: The pilot leverages DeeperPoint's open-source cooperative network designs and dynamic permissioning APIs. This allows candidate profiles to remain locked in local registries while still interacting securely with matching engines.
-*   **ClientSynth Governance Testing**: Before launching on-site nodes, the pilot uses **ClientSynth** to simulate cooperative interactions. We run agent-based simulations to test how graduation sanctions, monitoring levels, and variable wage thresholds affect employer engagement and candidate retention in Phase 3.
-*   **The Market Physics Framework**: DeeperPoint's thin market theory provides the diagnostic framework to prevent the "Aggregator Trap." It maps structural desire and transaction friction forces, ensuring the platform commons operates as an efficient, self-sustaining ecosystem rather than a bureaucratic bottleneck.
+This pilot applies the DeeperPoint **thin market diagnostic methodology** to design governance structures that prevent the platform from decaying into an extractive intermediary. Using the 11-challenge taxonomy from DeeperPoint's Intervention Matrix, the pilot targets the governance-critical resistance forces:
+*   **The Aggregator Trap**: DeeperPoint's platform governance analysis identifies three governance archetypes (Private Aggregator, Government Utility, Cooperative Protocol). This pilot implements the Cooperative Protocol model, using Ostrom's commons design principles to enforce data portability, graduated sanctions, and participant voice.
+*   **Trust at the Platform Level**: While the precursor pilots address bilateral trust between candidates and employers, this pilot addresses the *platform-level* trust risk — ensuring the coordination infrastructure itself cannot be captured by a single commercial operator.
+*   **Participant Fragmentation**: The diagnostic framework maps how fragmented Indigenous communities and dispersed employers can cooperate through decentralized, sovereign data nodes without centralized aggregation.
+
+The DeeperPoint research program has produced open-source tools — including cooperative protocol blueprints and simulation frameworks (**ClientSynth**) — that can accelerate governance testing. These tools enable agent-based simulations of how graduated sanctions, monitoring levels, and variable wage thresholds affect engagement and retention before live deployment.
 
 ---
 
 ## 2. Target Communities & Cooperative Parameters
 
-The pilot will configure localized commons parameters for the four target sectors:
+The pilot configures localized commons parameters for the sectors established by the precursor pilots — **aerospace** and **mining** as primary targets, with **automotive** as a secondary expansion:
 
 | Sector | Local Node Host | Commons Monitoring Rule | Temporal Boundary Rule |
 |---|---|---|---|
-| **Aerospace** | Regional Treaty Council | Shared Facilitator audits tool control and Nadcap-related safety environments. | 3-day flexible adjustment for seasonal cultural obligations. |
-| **Automotive** | First Nations Employment Center | Facilitator monitors weld-cell workload and assembly team integration. | Shift rotation pool coordinates backup operators automatically. |
-| **Mining** | Band Council Development Corp | Community monitors mine safety protocols and conveyor clearings. | Custom scheduling allowances for regional treaty gatherings. |
-| **Medical Devices** | Indigenous Health & Training Center | Facilitator checks cleanroom onboarding and sterile pack environments. | Flexible hours to support family-care and elder obligations. |
+| **Aerospace** (Primary) | Regional Treaty Council | Shared Facilitator audits tool control and Nadcap-related safety environments. | 3-day flexible adjustment for seasonal cultural obligations. |
+| **Mining** (Primary) | Band Council Development Corp | Community monitors mine safety protocols and conveyor clearings. | Custom scheduling allowances for regional treaty gatherings. |
+| **Automotive** (Secondary) | First Nations Employment Center | Facilitator monitors weld-cell workload and assembly team integration. | Shift rotation pool coordinates backup operators automatically. |
 
 ---
 
@@ -89,15 +92,20 @@ The pilot operates under a cooperative model leveraging three key participant gr
 *   **Role & Core Background**: Designs the commons metadata schema, configures Ostrom parameters in the protocol, and audits compliance. Mustafa Uzumeri's extensive background in ISO 9001 quality standardization ensures the cooperative protocols align with industrial compliance audits.
 *   **Bandwidth Constraint**: Architectural guidance and structural design only; no direct day-to-day operations [[wiki/pages/concepts/available_resources|available_resources]].
 
-### 3.2 Academic Governance Analysts (Trent University Indigenous Studies)
-*   **Role**: Trent students act as researchers to:
+### 3.2 Academic Governance Analysts (Trent University & Mount Royal University)
+*   **Role**: Students from Trent University and Mount Royal University act as researchers to:
     *   Consult with community Elders to draft the localized commons covenants and temporal boundaries.
     *   Iterate on conflict-resolution workflows.
     *   Audit the system logs to ensure strict OCAP compliance.
+*   **Institutional Relationships**: Dr. Don McCaskill (Trent University) and Dr. Linda Manyguns (Mount Royal University) have expressed strong interest in exploring possible projects through their respective institutions. Both bring decades of experience in Indigenous education and governance, and their 40-year professional collaboration provides a uniquely strong academic foundation for this governance design work.
 *   **Funding**: Funded through SSHRC, Mitacs, and academic research grants.
 
 ### 3.3 Strategic Access Facilitators
-*   **Role**: Band Council administrators, Treaty leaders, and community Elders who:
+*   **Founding Coalition**: The pilot benefits from an established network of collaborators with deep roots in both Indigenous communities and institutional networks:
+    *   **Michael Thrasher** (4 Skies Energy Solutions, Six Nations of the Grand River): Community and industry bridge, providing direct access to First Nations governance structures and cooperative protocol design.
+    *   **Dr. Linda Manyguns** (Mount Royal University): Academic and institutional facilitator with extensive networks in Treaty 7 communities and Alberta’s educational institutions.
+    *   **Dr. Don McCaskill** (Trent University): Academic and policy facilitator with deep relationships across Ontario First Nations communities and federal Indigenous policy networks.
+*   **Role**: These facilitators, drawing on 40 years of collaboration, along with Band Council administrators, Treaty leaders, and community Elders, will:
     *   Operate the local registry nodes and manage decryption keys.
     *   Serve as the local monitors (Shared Facilitators) on the shop floors.
     *   Review and approve employer participation requests.
@@ -174,7 +182,7 @@ The pilot uses an incremental AI technology roadmap to minimize initial cost and
 To ensure the commons pilot provides a scalable, sovereign economic model, the project has a clear scaling trajectory.
 
 ### 5.1 Academic Study & Research Process
-The pilot operates in tandem with a research study at Trent University:
+The pilot operates in tandem with a research study at Trent University or Mount Royal University:
 *   **Governance Evaluation**: Analyze the efficacy of Ostrom's CPR principles applied to digital labor marketplaces, documenting conflict resolution speeds and trust scores.
 *   **Sovereign Data Research**: Evaluate local-first database performance and OCAP standard compliance in high-reliability industrial sectors.
 

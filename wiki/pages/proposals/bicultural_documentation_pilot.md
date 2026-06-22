@@ -63,18 +63,26 @@ Using the tool control and special process case studies as our framing models, t
 *   **Goal 3: Lower Onboarding and Qualification Barriers**: Accelerate shop-floor training times for new Indigenous hires while maintaining or increasing retention of complex quality specifications (like AS9100, IATF, ISO 13485) under shift fatigue.
 *   **Goal 4: Build a Scale-Ready Bicultural Standard Operating Procedure (SOP) Template**: Create a repeatable dual-register documentation format validated by quality assurance managers, ready for integration into standard corporate training environments.
 
+### 1.4 Diagnostic Foundation: DeeperPoint Market Physics
+
+This pilot applies the DeeperPoint **thin market diagnostic methodology** to systematically identify which structural friction forces prevent effective Indigenous workforce integration. Using the 11-challenge taxonomy from DeeperPoint's Intervention Matrix, the pilot targets three specific resistance forces:
+*   **Opacity**: Complex quality standards written in abstract, decontextualized language create invisible barriers to comprehension and compliance.
+*   **Cognitive Bandwidth**: Workers from oral-tradition backgrounds face excessive cognitive load when forced to internalize procedures stripped of relational context and consequence.
+*   **Temporal Distance**: The delayed consequences of process failures (a forgotten tool causing an engine failure months later) are difficult to internalize through expository documentation alone.
+
+The DeeperPoint research program has also produced open-source tools — including AI-driven simulation frameworks — that can accelerate validation in later phases. However, the pilot's methodology stands independently of any specific software platform; the diagnostic framework and dual-register design approach are the primary contributions.
+
 ---
 
 ## 2. Industry Targets & Core Quality Standards
 
-The pilot will select one critical "special process" or high-risk activity from each of the following four sectors:
+The pilot focuses on two primary sectors — **aerospace** and **mining** — where the combination of high-reliability standards, Indigenous workforce proximity, and measurable compliance metrics creates the strongest conditions for validation. Automotive is retained as a secondary expansion target given the structural similarity of its quality standards to aerospace.
 
 | Industry Sector | Target Standards | Focus Activity | Quality Verification Challenge |
 |---|---|---|---|
-| **Aerospace** | AS9100D, CAR 561, Nadcap | Heat treating, chemical coating, NDT | Micro-fracture or crystalline structural failures cannot be verified visually post-machining. |
-| **Automotive** | IATF 16949 | Critical weld joints, stamping, torque spec | Hidden structural welds or torque tolerances can fail under load far in the future. |
-| **Mining** | ISO 45001, Mining Safety Act | Lockout-tagout, conveyor clearing, explosives | Safety controls and extraction limits require absolute adherence under conditions of severe fatigue. |
-| **Medical Devices** | ISO 13485 | Sterile packaging seal, mold tolerances | Bio-burden contamination or microscopic seal breaches are invisible but carry life-or-death consequences. |
+| **Aerospace** (Primary) | AS9100D, CAR 561, Nadcap | Heat treating, chemical coating, NDT | Micro-fracture or crystalline structural failures cannot be verified visually post-machining. |
+| **Mining** (Primary) | ISO 45001, Mining Safety Act | Lockout-tagout, conveyor clearing, explosives | Safety controls and extraction limits require absolute adherence under conditions of severe fatigue. |
+| **Automotive** (Secondary) | IATF 16949 | Critical weld joints, stamping, torque spec | Hidden structural welds or torque tolerances can fail under load far in the future. |
 
 ---
 
@@ -88,15 +96,20 @@ The pilot operates under a highly leveraged, low-overhead model relying on three
     *   *eLearning Production at Scale*: Through iPOV (ipov.net), authored approximately 500 video-based eLearning projects for Fortune 100 industrial corporations in the US, including hundreds of specialized modules focused directly on shop-floor plant operations, machine safety, and technical quality controls.
 *   **Bandwidth Constraint**: Time is available free of charge in modest quantities for architectural guidance, template structuring, and validation verification, but is strictly capped to prevent direct operational delivery loads [[wiki/pages/concepts/available_resources#1-architect-bandwidth-mustafa-uzumeri|available_resources, §1]].
 
-### 3.2 Academic Storytelling Analysts (Trent University Indigenous Studies)
-*   **Role**: Students from Trent University, ON (enrolled in Indigenous Studies or Bicultural Programs) will act as co-op or course-grade interns:
+### 3.2 Academic Storytelling Analysts (Trent University & Mount Royal University)
+*   **Role**: Students from Trent University, ON and Mount Royal University, AB (enrolled in Indigenous Studies or Bicultural Programs) will act as co-op or course-grade interns:
     *   Study the target expository SOPs.
     *   Collaborate with community Elders and knowledge keepers to identify traditional stories, metaphors, and relational causation models.
     *   Draft the **Narrative Register** translations (e.g. mapping the heat-treating crystalline shifts to wood-curing patterns).
+*   **Institutional Relationships**: Dr. Don McCaskill (Trent University) and Dr. Linda Manyguns (Mount Royal University) have expressed strong interest in exploring possible projects through their respective institutions. Both bring decades of experience in Indigenous education and bicultural programming, and their 40-year professional collaboration provides a uniquely strong academic foundation for this work.
 *   **Funding**: Funded through academic co-op envelopes and research grants (e.g. Mitacs, SSHRC) [[wiki/pages/concepts/available_resources#42-phase-2-production-system-deployment|available_resources, §4.2]].
 
 ### 3.3 Strategic Access Facilitators (Indigenous Policy & Industry Experts)
-*   **Role**: Policy leaders with established government, community, and industrial networks:
+*   **Founding Coalition**: The pilot benefits from an established network of collaborators with deep roots in both Indigenous communities and institutional networks:
+    *   **Michael Thrasher** (4 Skies Energy Solutions, Six Nations of the Grand River): Community and industry bridge, providing direct access to First Nations governance structures and industrial partnerships.
+    *   **Dr. Linda Manyguns** (Mount Royal University): Academic and institutional facilitator with extensive networks in Treaty 7 communities and Alberta's educational institutions.
+    *   **Dr. Don McCaskill** (Trent University): Academic and policy facilitator with deep relationships across Ontario First Nations communities and federal Indigenous policy networks.
+*   **Role**: These facilitators, drawing on 40 years of collaboration, will:
     *   Open doors to target manufacturing companies and mine sites.
     *   Engage local Band Councils and Treaty associations for community consent and OCAP compliance [[wiki/pages/concepts/available_resources#52-indigenous-organizations--local-groups|available_resources, §5.2]].
     *   Coordinate access to federal procurement or regional development funding (e.g. ISED, BDC Indigenous programs).
@@ -175,7 +188,7 @@ To manage organizational complexity and budgeting, the level of AI intervention 
 To ensure the pilot serves as a launching pad for permanent industry impact and economic self-determination, the project is designed with a clear transition path from research sandbox to commercial scalability.
 
 ### 5.1 Academic Study & Research Process
-The pilot will be run in tandem with a formal academic study (ideally supporting a PhD thesis or Master's research project) hosted at Trent University:
+The pilot will be run in tandem with a formal academic study (ideally supporting a PhD thesis or Master's research project) hosted at Trent University or Mount Royal University:
 *   **Methodology Evaluation**: Rigorously measure the cognitive retention delta, error reduction rates, and employee satisfaction under the dual-register method compared to traditional expository SOPs.
 *   **Linguistic & Pedagogy Analysis**: Document the transition mechanics of verb-centered grammars and relational story models in high-reliability industrial settings, contributing to the academic literature on bicultural technical communication.
 
