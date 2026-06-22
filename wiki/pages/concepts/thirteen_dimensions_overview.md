@@ -123,13 +123,25 @@ Not all dimensions are equally understood. The thirteen dimensions fall into thr
 
 The thirteen dimensions do not manifest uniformly. As Dr. Linda Manyguns (Mount Royal University) observes: *"the people in the north have different cycles and processes as compared to Blackfoot and even more different are the lifestyles found in the Great Lakes area where the Indigenous people are matrilineal, agricultural-based people."*
 
-| Region | Cultural Context | Scheduling & Skill Implications |
-|---|---|---|
-| **Northern communities** | Extended winter hunting, ice road logistics, extreme seasonal variation | Longer seasonal absences; deep cold-weather operations and isolation-maintenance skills |
-| **Blackfoot / Plains nations** | Distinct ceremonial calendar, large-scale seasonal coordination | Different ceremonial windows; strong coordination and resource management skills |
-| **Great Lakes (Anishinaabe / Haudenosaunee)** | Matrilineal governance, agricultural cycles, multi-season planning | Governance obligations; agricultural planning maps to production scheduling |
+But regional variation is only part of the picture. **Over half of Canada's Indigenous population now lives in cities and towns** (2021 Census: 801,045 of 1.81 million identify as First Nations, Métis, or Inuit and reside in urban centres). These urban Indigenous workers face a different dimension profile than reserve-based communities — and they are the population most immediately available to manufacturing employers.
 
-This variation is precisely why one-size-fits-all cultural leave policies fail, and why the AI scheduling approach (worker-driven constraint entry, not employer-configured calendars) is the correct design.
+| Location | Cultural Context | Mismatch Profile |
+|---|---|---|
+| **Northern communities** | Extended winter hunting, ice road logistics, extreme seasonal variation | Longer seasonal absences; deep cold-weather operations and isolation-maintenance skills. Geographic distance (Dimension 12) is the dominant barrier |
+| **Blackfoot / Plains nations** | Distinct ceremonial calendar, large-scale seasonal coordination | Different ceremonial windows; strong coordination and resource management skills. Scheduling (Dimensions 8–9) is the primary friction point |
+| **Great Lakes (Anishinaabe / Haudenosaunee)** | Matrilineal governance, agricultural cycles, multi-season planning | Governance obligations; agricultural planning maps to production scheduling. Consensus vs. authority (Dimension 3) is often the sharpest daily collision |
+| **Urban Indigenous** | May be disconnected from home community; navigating identity in a non-Indigenous majority environment; variable cultural connection (from fully active to exploring reconnection) | Geographic distance is low, but **credential gatekeeping (Dimension 13)** and **emotional tax (Dimension 5)** become dominant. The worker is close to the job but may lack institutional support networks, face ATS-format disadvantage, and carry the full burden of cultural code-switching without a proximate community to return to each evening |
+
+### Why the Urban Category Matters
+
+The urban Indigenous population is the largest and fastest-growing source of potential manufacturing workers. They are geographically proximate to plants, often already in the labour market, and may have some Western credential history. But the urban setting introduces its own barriers:
+
+- **Isolation without community infrastructure.** A worker on a reserve has Elders, ceremony, and kinship networks within walking distance. An urban Indigenous worker may have none of these — or may be rebuilding these connections through Friendship Centres and urban Indigenous organizations that are themselves under-resourced.
+- **Identity negotiation.** Urban Indigenous workers navigate a constant tension between cultural identity and workplace assimilation pressure. The emotional tax (Dimension 5) is often *higher* in urban settings because there is no daily return to a culturally affirming environment.
+- **Variable cultural connection.** The urban population spans the full readiness spectrum (§6 below): some are culturally active and maintain strong ties to home communities; others are reconnecting after years of disconnection; still others are Métis or non-status individuals whose cultural identity is complex and may not map neatly onto reserve-based frameworks.
+- **Credential gatekeeping is the first barrier.** Unlike remote communities where geographic distance is the initial filter, urban Indigenous workers can physically reach the workplace — but are filtered out by ATS systems, résumé format bias, and interview protocols that disadvantage narrative work histories (Dimension 13).
+
+This variation — across both geography and urban/rural context — is precisely why one-size-fits-all cultural leave policies fail, and why the AI scheduling approach (worker-driven constraint entry, not employer-configured calendars) and the double-blind matching system (competency translation, not résumé formatting) are the correct designs.
 
 ---
 
