@@ -30,6 +30,7 @@
 | 2026-06-22 | REFACTOR | Moved all PDFs from wiki/pages/ subdirectories to `publications/` at repo root. Updated index.md with all missing entries (white paper series, pedagogy, source, stubs). |
 | 2026-06-22 | CONCEPT | Added Cosolvent/ClientSynth integration references to WP4 §5 (Content Match Story) and WP5 Studies 1.2, 1.5, 2.2. Framed as available tools, not promotion. Version bumps: WP4 → 1.1, WP5 → 2.1. Regenerated PDFs. |
 | 2026-06-22 | CONCEPT | WP4 v1.2: Added Profile A/B worked example (§5), 30-day onboarding blueprint concept (§5), and Ostrom platform governance section (§8). Closes analytical gaps identified in proposal coverage review. |
+| 2026-06-22 | REFACTOR | Implemented five critical review recommendations: qualified Hofstede (WP1, WP2); added union dynamics, categorized shop-floor tasks, tempered vision error-proofing, and added SME low-cost options to WP3; clarified cloud-sovereign OCAP-AI node in WP5. Regenerated all PDFs. |
 
 ---
 

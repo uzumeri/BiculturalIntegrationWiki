@@ -1,4 +1,8 @@
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
+---
+title: "Thirteen Dimensions of Cultural Mismatch"
+type: "concept"
+---
 
 <figure class="blog-hero">
   <img class="blog-hero__img" src="images/thirteen-dimensions-hero.png" alt="Thirteen bridges spanning the divide between Indigenous community life and Western industrial workplaces" loading="lazy">
@@ -192,7 +196,7 @@ Translates the bridge candidates from Papers 2–4 into specific, actionable res
 | Source | Relevance |
 |---|---|
 | **Hall, E. T.** *Beyond Culture* (1976) | Monochronic/polychronic time orientation framework |
-| **Hofstede, G.** Cultural Dimensions | Power distance, individualism-collectivism structural analysis |
+| **Hofstede, G.** Cultural Dimensions | Power distance, individualism-collectivism structural analysis (utilized here as a dynamic analytical heuristic rather than a static, essentialist characterization of diverse Indigenous cultures) |
 | **Mining Industry Human Resources Council (MiHR)** | Indigenous recruitment/retention best practices in Canadian mining |
 | **Future Skills Centre (FSC-CCF)** | Indigenous workforce statistics; competency-based assessment |
 | **Toronto Metropolitan University — Diversity Institute** | Workplace discrimination data |

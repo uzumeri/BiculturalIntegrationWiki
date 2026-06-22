@@ -1,4 +1,8 @@
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
+---
+title: "The Research Agenda"
+type: "concept"
+---
 
 <figure class="blog-hero">
   <img class="blog-hero__img" src="images/structural-barriers-hero.png" alt="Bridging structural cultural differences between Indigenous community life and Western industrial workplace systems" loading="lazy">

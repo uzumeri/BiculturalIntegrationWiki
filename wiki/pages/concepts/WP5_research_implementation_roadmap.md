@@ -1,4 +1,8 @@
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
+---
+title: "From Theory to Practice"
+type: "concept"
+---
 
 <figure class="blog-hero">
   <img class="blog-hero__img" src="images/theory-to-practice-hero.png" alt="Research flowing from university campus environment to manufacturing practice" loading="lazy">
@@ -366,6 +370,17 @@ Several studies in this roadmap use AI tools (LLMs, NLP, automated analysis) to 
 2. **AI outputs are drafts, not findings.** Every LLM-generated coding, translation, or analysis is a first pass for human validation — never a final output published without human review
 3. **Synthetic data must be labeled.** LLM-generated résumés, narratives, and scenarios are clearly marked as synthetic and must not be presented as authentic Indigenous voices
 4. **Community review of AI tooling.** The Indigenous advisory committee reviews not just the research protocol but the AI tools and prompts used — ensuring the technology serves the community's goals, not just the researcher's convenience
+
+### 6.3 Technical Architecture: The Managed Sovereign Cloud Node
+
+A major operational barrier to OCAP compliance is the technical and capital overhead of requiring local community organizations (such as Friendship Centres or Band offices) to physically host server hardware and run localized AI models (e.g., Llama 3) on-premise. 
+
+To bridge this gap without compromising sovereignty, the Platform Commons Pilot proposes a **Managed Sovereign Cloud Node** architecture:
+- **Zero-Knowledge Encryption**: All candidate resumes, narrative histories, and survey records are encrypted on the client side before leaving the local community interface. The data is stored in standard cloud hosting environments (e.g., AWS, Azure) but remains completely unreadable to the cloud provider, the university researchers, and employers.
+- **Sovereign Custody of Encryption Keys**: The cryptographic private keys required to decrypt and read candidate data are held strictly on physical hardware security modules (HSMs) or localized token devices in the custody of community-appointed data custodians.
+- **Consent-Gated AI Processing**: For AI-driven competency translation (Study 1.5 and 2.2), the narrative text is decrypted locally in the candidate's browser or at a local community terminal, sent via a secure, transient API pipeline to an on-premise or sovereign-cloud LLM, and immediately re-encrypted. No raw data is retained on the processing server.
+
+This hybrid architecture ensures that the community exercises absolute **Possession and Control** over its data, while leveraging the scalability and low maintenance of cloud-native infrastructure.
 
 ---
 
