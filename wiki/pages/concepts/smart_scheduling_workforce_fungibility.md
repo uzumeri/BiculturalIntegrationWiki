@@ -62,6 +62,8 @@ Many Indigenous cultures operate on fundamentally different temporal rhythms:
 
 The collision produces a predictable sequence: the worker misses a shift (or part of a shift), receives a disciplinary warning, misses another shift for a different but equally legitimate reason, receives a second warning, and either quits or is terminated — typically within 90 days. The employer records "attendance problem." The worker experiences a system that forced them to choose between their culture and their income.
 
+For **urban Indigenous workers**, the scheduling collision takes a different form. The friction is driven less by seasonal travel or remote ceremonial obligations and more by the effort required to *maintain or rebuild* cultural connections in a city: Friendship Centre ceremonies and cultural programming that fall on weekday evenings, Elder visits scheduled around the Elder's availability rather than the worker's shift, language classes and land-based learning trips organized by urban Indigenous organizations, and navigating childcare without the extended family network that a reserve provides. The obligations are no less real — but they are effortful rather than ambient, and their unpredictability is compounded by the under-resourcing of urban Indigenous support infrastructure.
+
 These scheduling pressures vary significantly by region — Northern, Plains, and Great Lakes communities face different seasonal and ceremonial calendars (see Paper 1, *Thirteen Dimensions of Cultural Mismatch*, §5). This variation is precisely why a one-size-fits-all cultural leave policy cannot work, and why the AI scheduling approach described below succeeds: it is *worker-driven*, not employer-configured.
 
 ---

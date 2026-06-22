@@ -131,7 +131,7 @@ These studies require brains, time, and access to willing participants. They do 
 | Field | Detail |
 |---|---|
 | **Research question** | Can an AI system accurately translate Indigenous experiential narratives into standardized industrial competency tags? |
-| **Method** | Collect 20–30 experiential work narratives from Indigenous community members (with consent, under OCAP). Use an LLM-based translation engine to convert each narrative into a structured competency profile. Have 5–10 HR professionals and 5–10 Indigenous community validators independently rate the accuracy, completeness, and cultural appropriateness of the translations. |
+| **Method** | Collect 20–30 experiential work narratives from Indigenous community members (with consent, under OCAP). The sample must include **urban Indigenous participants** with hybrid work histories (mixed formal employment, partial credentials, and cultural/community roles) alongside reserve-based participants with primarily experiential histories — the translation engine must handle both. Use an LLM-based translation engine to convert each narrative into a structured competency profile. Have 5–10 HR professionals and 5–10 Indigenous community validators independently rate the accuracy, completeness, and cultural appropriateness of the translations. |
 | **Output** | Accuracy metrics for AI-mediated competency translation. A validated (or rejected) prototype of the core engine behind the Double-Blind Match Pilot. Documented failure modes (what the AI gets wrong and why) |
 | **Duration** | 9–12 months (PhD thesis chapter) |
 | **Ethics** | OCAP principles mandatory. Narrative data owned by the community. AI system must be auditable. Informed consent with right to withdraw |
@@ -197,10 +197,10 @@ These studies require partnerships between universities, manufacturers, and Indi
 | Field | Detail |
 |---|---|
 | **Research question** | Do anonymized, AI-translated competency profiles produce higher interview acceptance rates and better 90-day retention than standard Indigenous résumés? |
-| **Method** | Recruit 30–50 Indigenous job seekers through community partner organizations. Collect narrative work histories. Use AI translation engine (validated in Study 1.5) to produce dual profiles: standard résumé and anonymized match story. Present each to participating employers through randomized assignment. Track: initial callback rates, interview-to-offer conversion, 90-day retention, employer and candidate satisfaction. |
-| **Output** | Quantified evidence of double-blind matching effectiveness. Validated (or rejected) prototype ready for scaling. Data sovereignty architecture tested under real conditions |
+| **Method** | Recruit 30–50 Indigenous job seekers through community partner organizations — including both reserve-based partners and **urban Indigenous employment organizations** (e.g., Miziwe Biik Aboriginal Employment & Training in Toronto, Aboriginal Apprenticeship Board of Ontario, ONWA). The participant mix must include urban Indigenous candidates with hybrid work histories alongside reserve-based candidates with fully experiential histories. Collect narrative work histories. Use AI translation engine (validated in Study 1.5) to produce dual profiles: standard résumé and anonymized match story. Present each to participating employers through randomized assignment. Track: initial callback rates, interview-to-offer conversion, 90-day retention, employer and candidate satisfaction. |
+| **Output** | Quantified evidence of double-blind matching effectiveness across both urban and reserve-based populations. Validated (or rejected) prototype ready for scaling. Data sovereignty architecture tested under real conditions |
 | **Duration** | 18–24 months |
-| **Partners** | University (research design); Indigenous employment organizations (recruitment, OCAP governance); participating employers (minimum 10–15 for statistical power); technology partner (matching platform) |
+| **Partners** | University (research design); Indigenous employment organizations — both reserve-based and urban (recruitment, OCAP governance); participating employers (minimum 10–15 for statistical power); technology partner (matching platform) |
 
 ---
 
@@ -261,6 +261,7 @@ These studies require partnerships between universities, manufacturers, and Indi
 | **Output** | Evidence for or against graduated onboarding as a retention strategy. Optimal ramp schedule parameters. Business case for employers (retention benefit vs. reduced early productivity) |
 | **Duration** | 12–15 months |
 | **Partners** | University (research design); manufacturer (pilot site, AI scheduling platform); Indigenous employment readiness organization (recruitment, support); AI scheduling vendor (graduated constraint configuration) |
+| **Urban note** | Urban Indigenous workers re-entering the workforce after a period of disconnection are the most natural participants for this study — and the most accessible to researchers. **Urban Indigenous employment readiness programs** (e.g., Miziwe Biik, ONWA employment services) are the natural recruitment partners. The urban setting provides the most practical pilot context: proximity to manufacturing plants, existing program infrastructure, and a population where the sedentary-to-functioning transition barrier (Paper 1, §6) is most visible |
 
 ---
 
@@ -312,7 +313,8 @@ Different studies suit different institutions. The following are natural fits:
 | **Business / HR / Organizational Behaviour** | 1.2, 1.5, 1.6, 2.2 | Audit study methodology, HR system access, organizational behaviour frameworks |
 | **Education / Instructional Design** | 1.3, 2.3, 2.6 | Learning modality research, SOP design, training program evaluation |
 | **Computer Science / AI** | 1.5, 2.2 | NLP, competency extraction, matching algorithms, data sovereignty architecture |
-| **Non-profit Indigenous employment orgs** | 2.2, 2.6 | Community access, cultural advisory, participant recruitment, OCAP governance |
+| **Non-profit Indigenous employment orgs** (reserve-based) | 2.2, 2.6 | Community access, cultural advisory, participant recruitment, OCAP governance |
+| **Urban Indigenous employment organizations** (Miziwe Biik, ONWA, Aboriginal Apprenticeship Board of Ontario, Friendship Centres) | 1.5, 2.2, 2.6 | Urban Indigenous participant recruitment, hybrid work history expertise, employment readiness programming, accessible pilot site infrastructure. Essential partners for ensuring study populations include the majority of Indigenous people who live in cities and towns |
 
 ### Cross-Disciplinary Opportunities
 

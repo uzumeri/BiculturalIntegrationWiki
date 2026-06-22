@@ -150,16 +150,27 @@ Western employment assumes **geographic mobility**: go where the jobs are, reloc
 
 Many Indigenous peoples maintain deep, constitutive ties to **specific territories** — reserves, traditional lands, seasonal harvesting areas, sacred sites. The community is not portable. The Elder who provides guidance, the ceremonies that maintain spiritual health, the family network that provides childcare — these exist in a specific place and cannot be replicated in a city apartment.
 
-### How It Collides
+### How It Collides — Reserve-Based Workers
 
 - The manufacturing job is in Mississauga; the worker's community is on Six Nations, 90 minutes away. The commute separates the worker from their support system every day
 - Urban relocation brings cultural isolation, loss of identity markers, disconnection from Elders and ceremony, and housing insecurity
 - Career advancement often requires geographic mobility. A worker who cannot relocate is perceived as "not ambitious"
 - The social support networks that help a worker navigate the first 90 days are geographically distant
 
+### How It Collides — Urban Indigenous Workers
+
+For the over half of Canada's Indigenous population who already live in cities and towns (see Paper 1, §5), geographic distance to the worksite is not the primary barrier. Instead, the place dimension manifests as **cultural infrastructure scarcity**:
+
+- The worker is physically close to the plant but culturally isolated — Friendship Centres and urban Elder programs may be across the city, under-resourced, and operating on limited schedules
+- The worker's sense of *place* attachment may be to a distant home community that they visit periodically. These visits are not recreational — they are identity-sustaining — but they require travel that looks like "time off" to the employer
+- The worker may be disconnected from place entirely — neither integrated into an urban Indigenous community nor connected to a home reserve — and the workplace becomes the only structured environment in their life, increasing the stakes of every workplace friction
+- Housing insecurity in urban centres (Indigenous households are overrepresented in precarious housing) compounds every other dimension: a worker who is uncertain about next month's rent has less resilience for navigating cultural mismatch
+
+The key insight is that **geographic proximity does not eliminate Dimension 12 — it changes its character** from physical distance to cultural infrastructure access.
+
 ### Why It Matters
 
-Geographic rootedness most clearly illustrates the **structural** nature of these barriers. Every accommodation the worker makes (long commute, urban relocation, separation from community) carries a cumulative cost that eventually overwhelms the economic benefit of the job.
+Geographic rootedness most clearly illustrates the **structural** nature of these barriers. For reserve-based workers, every accommodation (long commute, urban relocation, separation from community) carries a cumulative cost that eventually overwhelms the economic benefit of the job. For urban Indigenous workers, the cost is subtler but equally real: the absence of ambient cultural support means the worker must *actively seek out* what reserve-based workers receive passively — and that effort competes with the demands of the job.
 
 ### Bridge Candidates
 
@@ -205,11 +216,12 @@ This is precisely the problem the **Double-Blind Bicultural Content Match Pilot*
 
 The skills mapping is not uniform. The translation engine must be regionally calibrated:
 
-| Region | Cultural Skill Base | Industrial Translation |
+| Location | Cultural Skill Base | Industrial Translation |
 |---|---|---|
 | **Northern communities** | Cold-weather logistics, equipment isolation maintenance, long-range navigation | Remote operations, FIFO safety, fleet management, environmental monitoring |
 | **Blackfoot (Plains)** | Seasonal resource management, large-scale coordination, ceremonial governance | Supply chain logistics, project management, quality governance |
 | **Great Lakes (Anishinaabe / Haudenosaunee)** | Agricultural planning, matrilineal governance, multi-season crop cycles | Production scheduling, inventory management, consensus-based team leadership |
+| **Urban Indigenous** | Hybrid work histories mixing formal employment with cultural and community roles; partial credentials (some college, some trades exposure); navigating multiple institutional systems simultaneously | The translation challenge is different: not cultural-to-industrial mapping, but *format conversion* of hybrid experiential-plus-formal histories into ATS-parseable profiles. The AI engine must handle partial credentials, mixed-register work narratives, and employment gaps that reflect urban realities (housing instability, care obligations, cultural reconnection) rather than seasonal cycles |
 
 ### Bridge Candidates
 
@@ -227,7 +239,7 @@ Dimension 13 is the highest-priority research target because it operates *before
 
 **Key questions for investigation:**
 1. Do anonymized, AI-translated competency profiles produce higher callback rates from hiring managers than standard Indigenous résumés?
-2. Can the AI translation engine be validated for accuracy across regional skill bases (Northern, Plains, Great Lakes)?
+2. Can the AI translation engine be validated for accuracy across all four location-based skill profiles (Northern, Plains, Great Lakes, Urban) — including the hybrid formal-plus-experiential histories common among urban Indigenous candidates?
 3. What is the consent and data sovereignty architecture required for community-controlled narrative profiles (OCAP compliance)?
 
 ---
