@@ -13,7 +13,7 @@
 
 **Author:** Mustafa Uzumeri
 **Date:** June 2026
-**Version:** 1.0
+**Version:** 1.1
 
 **Series context:** This paper covers dimensions 10–13 (Urgency Hierarchy, Learning & Knowledge Validation, Place & Geographic Rootedness, Credential & Presentation Gatekeeping) of the thirteen-dimension taxonomy introduced in Paper 1, *Thirteen Dimensions of Cultural Mismatch*.
 
@@ -227,7 +227,7 @@ The skills mapping is not uniform. The translation engine must be regionally cal
 
 | Bridge Candidate | Origin | How It Could Bridge |
 |---|---|---|
-| **Double-Blind Matching** | DeeperPoint Cosolvent; Bicultural Integration Exchange pilot | AI translates narrative work histories into standardized competency profiles. Both parties review anonymized match stories before identity disclosure |
+| **Double-Blind Matching** | DeeperPoint Cosolvent; Bicultural Integration Exchange pilot | AI translates narrative work histories into standardized competency profiles. Cosolvent's **Content Match Story** pattern delivers a three-stage, privacy-respecting narrative: (1) an anonymous match argument explaining why the pairing is promising, (2) a named introduction upon mutual opt-in, and (3) a deal-context summary as engagement deepens. Both parties review anonymized match stories before identity disclosure |
 | **Blind Résumé Screening** | Progressive HR practice; some Canadian federal departments | Removes name, address, and institution from applications. Reduces bias but doesn't solve the format/vocabulary problem |
 | **Competency Demonstration Hiring** | Skilled trades; military; some tech companies | Practical demonstration replaces résumé-based screening |
 | **AI Competency Translation** | Emerging practice; Bicultural Integration Exchange pilot | AI maps experiential narratives to industrial skill taxonomies, producing profiles ATS systems can parse |

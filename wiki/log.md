@@ -28,6 +28,7 @@
 | 2026-06-22 | CONCEPT | Rewrote `concepts/structural_cultural_barriers` as Paper 4 ("The Research Agenda") — dimensions 10–13 only with research questions and pilot connections. |
 | 2026-06-22 | CONCEPT | Created `concepts/research_implementation_roadmap` (Paper 5, "From Theory to Practice") — two-tier research roadmap: 7 Tier 1 studies (graduate) + 6 Tier 2 studies (consortium). |
 | 2026-06-22 | REFACTOR | Moved all PDFs from wiki/pages/ subdirectories to `publications/` at repo root. Updated index.md with all missing entries (white paper series, pedagogy, source, stubs). |
+| 2026-06-22 | CONCEPT | Added Cosolvent/ClientSynth integration references to WP4 §5 (Content Match Story) and WP5 Studies 1.2, 1.5, 2.2. Framed as available tools, not promotion. Version bumps: WP4 → 1.1, WP5 → 2.1. Regenerated PDFs. |
 
 ---
 
