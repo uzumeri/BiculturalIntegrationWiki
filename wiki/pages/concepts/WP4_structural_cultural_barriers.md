@@ -13,7 +13,7 @@
 
 **Author:** Mustafa Uzumeri
 **Date:** June 2026
-**Version:** 1.1
+**Version:** 1.2
 
 **Series context:** This paper covers dimensions 10–13 (Urgency Hierarchy, Learning & Knowledge Validation, Place & Geographic Rootedness, Credential & Presentation Gatekeeping) of the thirteen-dimension taxonomy introduced in Paper 1, *Thirteen Dimensions of Cultural Mismatch*.
 
@@ -43,8 +43,9 @@ For each dimension, this paper defines the mismatch, identifies specific bridge 
 5. [Dimension 13: Credential and Presentation Gatekeeping](#5-dimension-13-credential-and-presentation-gatekeeping)
 6. [Bridge Candidates Summary](#6-bridge-candidates-summary)
 7. [Connection to the Three Pilot Proposals](#7-connection-to-the-three-pilot-proposals)
-8. [Key References](#8-key-references)
-9. [Conclusion](#9-conclusion)
+8. [Platform Governance: The Aggregator Trap](#8-platform-governance-the-aggregator-trap)
+9. [Key References](#9-key-references)
+10. [Conclusion](#10-conclusion)
 
 ---
 
@@ -233,6 +234,39 @@ The skills mapping is not uniform. The translation engine must be regionally cal
 | **AI Competency Translation** | Emerging practice; Bicultural Integration Exchange pilot | AI maps experiential narratives to industrial skill taxonomies, producing profiles ATS systems can parse |
 | **PLAR** | Canadian apprenticeship system | Formal pathway for recognizing non-credentialed experience |
 
+### What This Looks Like in Practice
+
+To make the gatekeeping problem concrete, consider how the same candidate appears under conventional HR screening versus bicultural competency translation:
+
+#### Profile A: Conventional CV (Filtered Out by Standard ATS)
+
+> **Employment Gaps**: Unemployed November 2024 to April 2025; Unemployed November 2023 to April 2024.
+>
+> **Experience**:
+> - *Seasonal Harvester & Family Caregiver* (November–April, multiple years): Gathered resources, managed family logistics, operated local snowmobiles and transport.
+> - *Community Liaison, Band Council* (Part-time, 2023): Handled disputes, organized local meetings, distributed community notices.
+> - *Construction Laborer* (Seasonal, 2021–2022): General site cleanup, hand tool operations.
+>
+> **Certifications**: Standard high school diploma, driver's license.
+>
+> **ATS Verdict**: *REJECT. High risk due to chronic seasonal gaps. Missing direct industrial logistics experience or enterprise resource planning (ERP) system credentials.*
+
+#### Profile B: Translated Bicultural Match Story (Double-Blind)
+
+> **Candidate Competency Translation**:
+> - **Variable-Condition Resource Logistics**: Managed seasonal supply networks, cold-weather transport operations, and community equipment inventory under extreme environmental constraints. Equivalent to multi-domain logistics coordination and fleet management.
+> - **Multi-Stakeholder Relations**: Coordinated community communications, resource allocation, and dispute resolution across band council leadership, family units, and regional government representatives. Equivalent to cross-functional stakeholder management.
+> - **Asset Stewardship & Safety**: Maintained remote operational machinery under isolated conditions, executing safety checkups with zero equipment loss.
+>
+> **30-Day Onboarding Blueprint**:
+> - *Week 1–2 (Technical Integration)*: Match candidate's spatial planning and equipment upkeep experience with the company's tool control protocols.
+> - *Week 3–4 (Relational Checkpoint)*: Introduce the local Shared Facilitator to coordinate communication between the team lead and the candidate, ensuring smooth transition dynamics.
+> - *Temporal Accommodation*: Candidate is backed by a peer-to-peer capacity rotation pool, allowing time away for seasonal community harvests without interrupting shop-floor output.
+
+The same person. The same skills. Profile A is rejected before a human sees it. Profile B produces a match, an onboarding plan, and a retention structure — all before the first day of work.
+
+Note that the match does not merely produce a *placement* — it generates a **customized 30-day onboarding blueprint** that pairs the specific competency translation with scheduling accommodations and a Shared Facilitator check-in structure. This is a fundamental design difference from standard placement services, which end at the hire decision. The onboarding blueprint addresses the 90-day attrition problem directly: it builds the support structure *into* the match itself.
+
 ### Research Agenda
 
 Dimension 13 is the highest-priority research target because it operates *before* the worker enters the workplace. No retention tool matters if candidates cannot get hired. The Double-Blind Match Pilot proposal is already drafted and represents the most developed bridge design in the entire series.
@@ -273,7 +307,32 @@ Each of the four dimensions connects to specific pilot proposals already develop
 
 ---
 
-## 8. Key References
+## 8. Platform Governance: The Aggregator Trap
+
+The thirteen dimensions addressed in this series all describe friction at the *individual workplace level* — between a worker and an employer, mediated by scheduling, training, communication, and hiring systems. But a matching platform that connects Indigenous workers with manufacturing employers introduces a governance challenge at a different level entirely: **who controls the platform itself?**
+
+Standard digital matching platforms operate under an extractive model that the DeeperPoint framework calls the **Aggregator Trap**. A central corporate intermediary controls candidate data, packages and monetizes profiles, and sets terms of service unilaterally. For Indigenous communities, this extractive architecture represents a direct threat to OCAP data sovereignty — the community loses Ownership, Control, Access, and Possession of its members' career profiles and cultural data the moment it enters a commercial SaaS database.
+
+The Platform Commons Pilot addresses this by applying **Elinor Ostrom's eight principles for governing common-pool resources** to the matching platform itself:
+
+| Ostrom Principle | Platform Application |
+|---|---|
+| Clearly defined boundaries | Only certified community members and committed employers access the commons pool |
+| Congruence with local conditions | Wage minimums, ceremony calendar windows, and scheduling limits are set by each local community |
+| Collective-choice arrangements | Rules are made by participant assemblies, not corporate terms of service |
+| Monitoring by accountable agents | Shared Facilitators act as community-appointed monitors on the shop floor |
+| Graduated sanctions | Employers who violate scheduling accommodations or safety playbooks receive progressive warnings before suspension from matching |
+| Low-cost conflict resolution | Disputes are resolved locally through facilitated dialogue, not centralized ticketing |
+| Recognition of self-governance | Federal and provincial authorities recognize the community's right to govern its own data |
+| Nested enterprises | Local nodes federate into regional and national networks without centralizing data |
+
+Candidate registries are contractually and physically separated from corporate databases — hosted on sovereign, community-controlled server nodes, or protected by localized encryption keys held strictly by community custodians. Employers receive only temporary, read-only access to anonymized match profiles during the matching process. All personally identifiable information is masked and cryptographically protected.
+
+This governance architecture is not addressed by any of the thirteen dimensions of cultural mismatch — it sits at the *meta-level* of platform design. But without it, every bridge tool proposed in this series could be captured by an extractive intermediary, reproducing the power asymmetry the tools were designed to correct. The full design is documented in the **Platform Commons Pilot** proposal.
+
+---
+
+## 9. Key References
 
 | Source | Relevance |
 |---|---|
@@ -293,7 +352,7 @@ Each of the four dimensions connects to specific pilot proposals already develop
 
 ---
 
-## 9. Conclusion
+## 10. Conclusion
 
 The four dimensions addressed in this paper — urgency hierarchy, learning and knowledge validation, geographic rootedness, and credential gatekeeping — represent the **frontier** of bicultural integration work. Unlike dimensions 1–9, where existing industry tools can be adapted with relatively modest effort, these dimensions require new frameworks, new tools, and new institutional arrangements.
 
