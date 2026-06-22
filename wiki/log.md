@@ -17,6 +17,17 @@
 | 2026-06-19 | PROPOSAL | Drafted multi-industry pilot project proposal (`proposals/bicultural_documentation_pilot`) targeting aerospace, automotive, mining, and medical device sectors. |
 | 2026-06-20 | PROPOSAL | Drafted double-blind match engine pilot proposal (`proposals/double_blind_match_pilot`) executing the progressive trust matching concept. |
 | 2026-06-20 | PROPOSAL | Drafted Ostrom-based platform commons governance pilot proposal (`proposals/platform_commons_pilot`) executing the decentralized cooperative governance concept. |
+| 2026-06-21 | CONCEPT | Created `concepts/constructive_conflict_cultural_mismatch` (White Paper 1) — CRM+TPS bridge for 7 communication/conflict dimensions with temporal architecture. |
+| 2026-06-21 | CONCEPT | Created `concepts/structural_cultural_barriers` (White Paper 2) — 6 structural dimensions (8–13) of cultural mismatch with bridge candidates. |
+| 2026-06-21 | CONCEPT | Created `concepts/smart_scheduling_workforce_fungibility` (White Paper 3) — AI scheduling + video SOPs + poka-yoke for dimensions 8–9. |
+| 2026-06-21 | PEDAGOGY | Created `pedagogy/composite-layup-and-hide-tanning` — dual-register SOP pair demonstrating bicultural approach for aerospace composite manufacturing. |
+| 2026-06-21 | SOURCE | Added `sources/AIChat about indigenous hurdles` — extended AI research session with Dr. Manyguns input on 13 dimensions, readiness spectrum, and regional variation. |
+| 2026-06-22 | REFACTOR | Integrated Dr. Linda Manyguns' observations (credential gatekeeping, readiness spectrum, regional variation, sedentary-to-functioning transition) across WP2 and WP3. |
+| 2026-06-22 | REFACTOR | Restructured 3 white papers into 5-paper series with clean dimension partition: Paper 1 (overview, dims 1–13), Paper 2 (conflict, dims 1–7), Paper 3 (scheduling, dims 8–9), Paper 4 (research agenda, dims 10–13), Paper 5 (research roadmap). |
+| 2026-06-22 | CONCEPT | Created `concepts/thirteen_dimensions_overview` (Paper 1) — executive summary of the thirteen-dimension taxonomy with bridge candidates, readiness spectrum, and regional variation. |
+| 2026-06-22 | CONCEPT | Rewrote `concepts/structural_cultural_barriers` as Paper 4 ("The Research Agenda") — dimensions 10–13 only with research questions and pilot connections. |
+| 2026-06-22 | CONCEPT | Created `concepts/research_implementation_roadmap` (Paper 5, "From Theory to Practice") — two-tier research roadmap: 7 Tier 1 studies (graduate) + 6 Tier 2 studies (consortium). |
+| 2026-06-22 | REFACTOR | Moved all PDFs from wiki/pages/ subdirectories to `publications/` at repo root. Updated index.md with all missing entries (white paper series, pedagogy, source, stubs). |
 
 ---
 
