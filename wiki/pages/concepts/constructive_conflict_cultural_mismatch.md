@@ -8,11 +8,14 @@
 
 ## How Aviation Safety, Japanese Manufacturing, and Indigenous Relational Culture Converge on a Single Answer for High-Reliability Workplaces
 
-**A White Paper from the Bicultural Integration Exchange**
+**Bicultural Integration Exchange — White Paper Series**
+**Paper 2 of 5**
 
 **Author:** Mustafa Uzumeri
 **Date:** June 2026
-**Version:** 2.0
+**Version:** 2.1
+
+**Series context:** This paper covers dimensions 1–7 (Communication & Conflict) of the thirteen-dimension taxonomy introduced in Paper 1, *Thirteen Dimensions of Cultural Mismatch*.
 
 ---
 
@@ -528,6 +531,18 @@ The concern is not only valid — it identifies a **structural gap** in current 
 6. **Potentially advantageous** — the consensus-oriented, collectivist, face-preserving communication norms common across many Indigenous cultures are structurally aligned with the world's most successful manufacturing methodology. As the time scale of these tools lengthens, they become progressively more Indigenous-aligned — suggesting that the integration process itself has a natural arc from Western scaffolding toward Indigenous resonance.
 
 A bicultural integration program that layers TPS consensus culture (months-years), A3 collaborative problem-solving (weeks), restorative circles (as needed), rank-free After Action Reviews (daily), and CRM-style graded assertiveness (seconds) — designed specifically for Indigenous workers entering aerospace, mining, and manufacturing — would be a novel contribution with no apparent precedent in the current literature. Every tool in this architecture traces to an established, evidence-based program that the receiving industry already recognizes. None requires the Indigenous worker to suppress their cultural norms. Both sides move toward the center.
+
+---
+
+### Series Navigation
+
+| Paper | Title | Dimensions |
+|---|---|---|
+| **1** | *Thirteen Dimensions of Cultural Mismatch* | All 13 (executive summary) |
+| **2 (this paper)** | *Bridging the Conflict Divide* | 1–7 (Communication & Conflict) |
+| **3** | *Smart Scheduling and the Fungible Workforce* | 8–9 (Time, Family) |
+| **4** | *The Research Agenda* | 10–13 (Urgency, Learning, Place, Credential Gatekeeping) |
+| **5** | *From Theory to Practice* | Research implementation roadmap |
 
 ---
 
