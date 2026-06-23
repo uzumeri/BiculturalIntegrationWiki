@@ -40,10 +40,10 @@
 ### Framework & Prototypes
 
 *   [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]] — Details Mustafa Uzumeri's academic research into ISO 9001 quality standardization and empirical training systems (iPOV), mapping the lineage of the Dual-Register Playbook design.
-*   [[wiki/pages/pedagogy/composite-layup-and-hide-tanning|composite-layup-and-hide-tanning]] — Dual-register SOP pair demonstrating the bicultural approach: an AS9100D-compliant composite layup procedure paired with a relational narrative connecting the process to Indigenous hide-tanning traditions (surface preparation, layered construction, controlled curing).
 
 ### Bicultural Standard Operating Procedures (SOPs)
 
+*   [[wiki/pages/pedagogy/bicultural_sops/composite_layup_hide_tanning|composite_layup_hide_tanning]] — Dual-register SOP (AS9100D / Nadcap AC7118 Composite Layup) pairing advanced prepreg layup and autoclave curing with the relational metaphor "traditional hide tanning" to explain resin crosslinking and patient curing.
 *   [[wiki/pages/pedagogy/bicultural_sops/loto_breaker_isolation|loto_breaker_isolation]] — Dual-register SOP (CSA Z460 LOTO) pairing a circuit breaker lockout protocol with the relational metaphor "The Red Lock / Life-Shadow" to explain personal safety isolation.
 *   [[wiki/pages/pedagogy/bicultural_sops/electrical_panel_access|electrical_panel_access]] — Dual-register SOP (CSA Z462 Electrical Safety) pairing arc flash boundary rules with the relational metaphor "Path of the Thunderbolt" to guide safe panel access.
 *   [[wiki/pages/pedagogy/bicultural_sops/confined_space_tank_entry|confined_space_tank_entry]] — Dual-register SOP (CSA Z1006 Confined Space) pairing atmospheric testing protocols with the relational metaphor "The Cave that Does Not Breathe" to prevent asphyxiation.

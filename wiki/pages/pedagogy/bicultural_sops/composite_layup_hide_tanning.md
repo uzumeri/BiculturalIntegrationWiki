@@ -1,9 +1,17 @@
 <!--Copyright (c) 2026 Mustafa Uzumeri. All rights reserved.-->
 
+---
+title: "composite_layup_hide_tanning"
+type: "pedagogy"
+topics: [safety, compliance, as9100d, nadcap-ac7118, composite, layup, curing, story]
+sources: []
+status: "active"
+---
+
 # Composite Layup & Autoclave Curing — A Bicultural Dual-Register Explanation
 
 <figure class="blog-hero">
-  <img src="../../images/composite-layup-hide-tanning-hero.png" alt="Two parallel crafts of patience: traditional hide tanning and aerospace composite layup" loading="lazy">
+  <img src="../../../images/composite-layup-hide-tanning-hero.png" alt="Two parallel crafts of patience: traditional hide tanning and aerospace composite layup" loading="lazy">
   <figcaption>Two parallel crafts of patience — traditional hide preparation and aerospace composite layup share the same discipline: plan carefully, prepare completely, and never rush the transformation.</figcaption>
 </figure>
 
@@ -122,7 +130,7 @@ Both registers describe the same physical requirements. The expository SOP (Regi
 
 3. **The consequence of impatience is invisible.** A rushed hide looks finished on the surface but rots from within. A short-cycled composite looks solid but contains uncured resin that will fail under load. In both cases, the failure is delayed and hidden — which is why the worker's integrity matters more than any inspector's audit.
 
-4. **The chain of care extends beyond the maker.** Grandmother's moccasins protect a child's feet in winter. The composite wing carries passengers across the sky. Neither the child nor the passengers know the maker's name, but both depend on the maker's promise. This relational accountability is the core of both the traditional and industrial ethic.
+4. **The chain of care extends beyond the maker.** Grandmother's moccasins protect a child's feet in winter. The composite wing carries passengers across the sky. Neither the child nor the passengers know the maker's name, but depend on the maker's promise. This relational accountability is the core of both the traditional and industrial ethic.
 
 ---
 
