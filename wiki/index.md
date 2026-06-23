@@ -13,6 +13,7 @@
 *   [[wiki/pages/sources/source_storyboard_competitive_landscape|source_storyboard_competitive_landscape]] — Whitespace analysis of safety and HR options in Canada (San'yas, Len Pierre, Nokiiwin, HSO), highlighting the lack of task-level operational translations.
 *   [[wiki/pages/sources/source_manyguns_roadmap|source_manyguns_roadmap]] — Staged five-stage roadmap for the MRU Indigenous Knowledge Exchange and corrections-facing Empty Lodge pilot.
 *   [[wiki/pages/sources/AIChat about indigenous hurdles|AIChat about indigenous hurdles]] — Extended AI research conversation (Dr. Linda Manyguns input) documenting 13 dimensions of Indigenous-industry cultural mismatch, regional cultural variation (Northern/Blackfoot/Great Lakes), the readiness spectrum (active/reconnecting/disconnected), credential gatekeeping, and the sedentary-to-functioning transition barrier.
+*   [[wiki/pages/sources/canadian_high_stakes_standards|canadian_high_stakes_standards]] — Compiles high-stakes Canadian quality, safety, and operational standards (CSA codes) paired with relational bicultural metaphors for process translation.
 
 ## Concepts
 
@@ -36,8 +37,25 @@
 
 ## Pedagogy
 
+### Framework & Prototypes
+
 *   [[wiki/pages/pedagogy/instructional_design_pedagogy|instructional_design_pedagogy]] — Details Mustafa Uzumeri's academic research into ISO 9001 quality standardization and empirical training systems (iPOV), mapping the lineage of the Dual-Register Playbook design.
 *   [[wiki/pages/pedagogy/composite-layup-and-hide-tanning|composite-layup-and-hide-tanning]] — Dual-register SOP pair demonstrating the bicultural approach: an AS9100D-compliant composite layup procedure paired with a relational narrative connecting the process to Indigenous hide-tanning traditions (surface preparation, layered construction, controlled curing).
+
+### Bicultural Standard Operating Procedures (SOPs)
+
+*   [[wiki/pages/pedagogy/bicultural_sops/loto_breaker_isolation|loto_breaker_isolation]] — Dual-register SOP (CSA Z460 LOTO) pairing a circuit breaker lockout protocol with the relational metaphor "The Red Lock / Life-Shadow" to explain personal safety isolation.
+*   [[wiki/pages/pedagogy/bicultural_sops/electrical_panel_access|electrical_panel_access]] — Dual-register SOP (CSA Z462 Electrical Safety) pairing arc flash boundary rules with the relational metaphor "Path of the Thunderbolt" to guide safe panel access.
+*   [[wiki/pages/pedagogy/bicultural_sops/confined_space_tank_entry|confined_space_tank_entry]] — Dual-register SOP (CSA Z1006 Confined Space) pairing atmospheric testing protocols with the relational metaphor "The Cave that Does Not Breathe" to prevent asphyxiation.
+*   [[wiki/pages/pedagogy/bicultural_sops/working_at_heights_harness|working_at_heights_harness]] — Dual-register SOP (CSA Z259 Fall Protection) pairing safety harness inspections with the relational metaphor "The Eagle's Tether" to ground height-work in earth-anchoring.
+*   [[wiki/pages/pedagogy/bicultural_sops/machine_guarding_interlocks|machine_guarding_interlocks]] — Dual-register SOP (CSA Z432 Guarding) pairing physical barrier and interlock inspections with the relational metaphor "The Muzzle of the Iron Beast" to explain risk mitigation.
+*   [[wiki/pages/pedagogy/bicultural_sops/boiler_blowdown_procedure|boiler_blowdown_procedure]] — Dual-register SOP (CSA B51 Pressure Vessels) pairing boiler blowdown safety with the relational metaphor "The Geyser in the Stone Box" to govern steam containment.
+*   [[wiki/pages/pedagogy/bicultural_sops/structural_weld_joint_inspection|structural_weld_joint_inspection]] — Dual-register SOP (CSA W178.2 / W47.1 Welding) pairing pre-weld and root pass inspection with the relational metaphor "Fusing of Two Bones" to explain deep joint integrity.
+*   [[wiki/pages/pedagogy/bicultural_sops/heavy_rigging_load_hoist|heavy_rigging_load_hoist]] — Dual-register SOP (CSA Z150 Mobile Cranes) pairing weight and sling angle calculations with the relational metaphor "The Arm of the Giant" to ensure load stability.
+*   [[wiki/pages/pedagogy/bicultural_sops/chemical_decanting_hazard_label|chemical_decanting_hazard_label]] — Dual-register SOP (WHMIS 2015 / GHS Chemical Safety) pairing decanting container labeling with the relational metaphor "The Language of Poisons" to communicate chemical hazards.
+*   [[wiki/pages/pedagogy/bicultural_sops/liquid_penetrant_inspection|liquid_penetrant_inspection]] — Dual-register SOP (Nadcap AC7114 NDT) pairing capillary dye testing with the relational metaphor "The Blood of the Stone" to detect micro-cracks.
+*   [[wiki/pages/pedagogy/bicultural_sops/anodizing_immersion_time|anodizing_immersion_time]] — Dual-register SOP (Nadcap AC7108 Chemical Processing) pairing aluminum acid-bath times with the relational metaphor "The Dyeing of the Quills" to control coating thickness.
+*   [[wiki/pages/pedagogy/bicultural_sops/heat_treating_furnace_log|heat_treating_furnace_log]] — Dual-register SOP (Nadcap AC7102 Heat Treating) pairing pyrometer calibration and furnace soak times with the relational metaphor "The Curing of the Wood" to record thermal tempering.
 
 ## Initiatives
 

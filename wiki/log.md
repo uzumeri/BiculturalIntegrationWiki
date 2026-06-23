@@ -31,6 +31,8 @@
 | 2026-06-22 | CONCEPT | Added Cosolvent/ClientSynth integration references to WP4 §5 (Content Match Story) and WP5 Studies 1.2, 1.5, 2.2. Framed as available tools, not promotion. Version bumps: WP4 → 1.1, WP5 → 2.1. Regenerated PDFs. |
 | 2026-06-22 | CONCEPT | WP4 v1.2: Added Profile A/B worked example (§5), 30-day onboarding blueprint concept (§5), and Ostrom platform governance section (§8). Closes analytical gaps identified in proposal coverage review. |
 | 2026-06-22 | REFACTOR | Implemented five critical review recommendations: qualified Hofstede (WP1, WP2); added union dynamics, categorized shop-floor tasks, tempered vision error-proofing, and added SME low-cost options to WP3; clarified cloud-sovereign OCAP-AI node in WP5. Regenerated all PDFs. |
+| 2026-06-23 | SOURCE | Created `sources/canadian_high_stakes_standards` compiling high-stakes Canadian quality/safety standards with relational bicultural metaphors. |
+| 2026-06-23 | PEDAGOGY | Created 12 dual-register bicultural SOP files under `wiki/pages/pedagogy/bicultural_sops/` pairing Canadian CSA/Nadcap standards with Indigenous metaphors and custom hero images. |
 
 ---
 
