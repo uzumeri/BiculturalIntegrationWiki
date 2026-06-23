@@ -330,6 +330,9 @@ const puppeteer = require('puppeteer');
     const page = await browser.newPage();
     await page.goto('file://' + htmlPath, { waitUntil: 'networkidle0' });
 
+    // Wait 8 seconds to allow the browser to fully parse, load, and decode all Base64 images
+    await new Promise(resolve => setTimeout(resolve, 8000));
+
     const headerTemplate = `<div style="width:100%; margin: 0 auto; padding: 0 2.5cm; font-size:9px; color:#334155; font-family:\\'Helvetica Neue\\',Helvetica,Arial,sans-serif; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #cbd5e1; padding-bottom:5px; -webkit-print-color-adjust:exact; print-color-adjust:exact;"><span style="font-weight:800; color:#1e40af; text-transform:uppercase; letter-spacing:0.06em;">Bicultural Integration Wiki</span><span style="font-weight:500; color:#475569;">Dual-Register SOP Compendium</span></div>`;
     
     const footerTemplate = `<div style="width:100%; margin: 0 auto; padding: 0 2.5cm; font-size:8px; color:#334155; font-family:\\'Helvetica Neue\\',Helvetica,Arial,sans-serif; display:flex; justify-content:space-between; align-items:center; border-top:1px solid #cbd5e1; padding-top:5px; -webkit-print-color-adjust:exact; print-color-adjust:exact;"><span style="font-weight:600;">© 2026 Mustafa Uzumeri. All rights reserved.</span><span style="font-style:italic; font-size:7.5px; color:#475569;">Bicultural Integration Exchange Project</span><span style="font-weight:600;">Page <span class="pageNumber"></span> of <span class="totalPages"></span></span></div>`;
@@ -557,13 +560,13 @@ def generate_pdf():
     print("Building unified compendium HTML with base64 embedded visual assets...")
     compendium_html = build_compendium_html()
     
-    # 2. Write HTML to temporary file
-    temp_dir = tempfile.gettempdir()
-    html_path = os.path.join(temp_dir, "bicultural_compendium.html")
+    # 2. Write HTML to scratch directory
+    html_path = os.path.join(REPO_ROOT, "scratch/compendium.html")
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(compendium_html)
         
     # Write the Node print script to a temp file
+    temp_dir = tempfile.gettempdir()
     js_path = os.path.join(temp_dir, "print_compendium.js")
     with open(js_path, 'w', encoding='utf-8') as f:
         f.write(NODE_SCRIPT)
@@ -595,9 +598,8 @@ def generate_pdf():
         
     print(f"PDF generated successfully at {OUTPUT_PDF}")
     
-    # Clean up temp files
+    # Clean up temp JS file only
     try:
-        os.unlink(html_path)
         os.unlink(js_path)
     except OSError:
         pass
