@@ -328,6 +328,12 @@ const puppeteer = require('puppeteer');
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
+    
+    // Attach logging handlers
+    page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+    page.on('pageerror', err => console.log('PAGE ERROR:', err.toString()));
+    page.on('requestfailed', request => console.log('REQUEST FAILED:', request.url(), request.failure().errorText));
+
     await page.goto('file://' + htmlPath, { waitUntil: 'networkidle0' });
 
     // Wait 8 seconds to allow the browser to fully parse, load, and decode all Base64 images
@@ -399,9 +405,18 @@ def embed_images_as_base64(html_content):
         abs_img_path = os.path.abspath(os.path.join(IMAGES_DIR, img_filename))
         if os.path.exists(abs_img_path):
             with open(abs_img_path, "rb") as img_file:
-                encoded = base64.b64encode(img_file.read()).decode('utf-8')
-                print(f"  Embedded visual asset: {img_filename}")
-                return f'src="data:image/png;base64,{encoded}"'
+                data = img_file.read()
+                # Determine mime type by magic bytes
+                mime_type = "image/png"
+                if data.startswith(b"\xff\xd8"):
+                    mime_type = "image/jpeg"
+                elif data.startswith(b"\x89PNG"):
+                    mime_type = "image/png"
+                elif data.startswith(b"GIF8"):
+                    mime_type = "image/gif"
+                encoded = base64.b64encode(data).decode('utf-8')
+                print(f"  Embedded visual asset: {img_filename} (detected mime: {mime_type})")
+                return f'src="data:{mime_type};base64,{encoded}"'
         else:
             print(f"  WARNING: Visual asset not found: {abs_img_path}")
             return match.group(0)
@@ -456,31 +471,31 @@ def build_compendium_html():
         <div class="toc-section">
             <div class="toc-section-title">Workplace Safety Standards (CSA Group)</div>
             <ul class="toc-list">
-                <li class="toc-item"><span class="toc-item-title">SOP 1: LOTO Breaker Isolation (CSA Z460)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 4</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 2: Electrical Panel Access (CSA Z462)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 6</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 3: Confined Space Tank Entry (CSA Z1006)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 8</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 4: Working at Heights Harness (CSA Z259)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 10</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 5: Machine Guarding Interlocks (CSA Z432)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 12</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 1: LOTO Breaker Isolation (CSA Z460)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 6</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 2: Electrical Panel Access (CSA Z462)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 12</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 3: Confined Space Tank Entry (CSA Z1006)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 18</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 4: Working at Heights Harness (CSA Z259)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 24</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 5: Machine Guarding Interlocks (CSA Z432)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 29</span></li>
             </ul>
         </div>
         
         <div class="toc-section">
             <div class="toc-section-title">Mechanical & Welding Quality Standards (CSA Group / CWB)</div>
             <ul class="toc-list">
-                <li class="toc-item"><span class="toc-item-title">SOP 6: Boiler Blowdown Procedure (CSA B51)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 14</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 7: Structural Weld Joint Inspection (CSA W178.2)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 16</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 8: Heavy Rigging Load Hoist (CSA Z150)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 18</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 6: Boiler Blowdown Procedure (CSA B51)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 35</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 7: Structural Weld Joint Inspection (CSA W178.2)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 40</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 8: Heavy Rigging Load Hoist (CSA Z150)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 45</span></li>
             </ul>
         </div>
         
         <div class="toc-section">
             <div class="toc-section-title">Chemical & Aerospace Special Processes (WHMIS / Nadcap)</div>
             <ul class="toc-list">
-                <li class="toc-item"><span class="toc-item-title">SOP 9: Chemical Decanting Hazard Label (WHMIS 2015)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 20</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 10: Liquid Penetrant Inspection (Nadcap AC7114)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 22</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 11: Aluminum Anodizing (Nadcap AC7108)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 24</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 12: Heat Treating Furnace Log (Nadcap AC7102)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 26</span></li>
-                <li class="toc-item"><span class="toc-item-title">SOP 13: Composite Layup & Curing (Nadcap AC7118)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 28</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 9: Chemical Decanting Hazard Label (WHMIS 2015)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 52</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 10: Liquid Penetrant Inspection (Nadcap AC7114)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 57</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 11: Aluminum Anodizing (Nadcap AC7108)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 62</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 12: Heat Treating Furnace Log (Nadcap AC7102)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 68</span></li>
+                <li class="toc-item"><span class="toc-item-title">SOP 13: Composite Layup & Curing (Nadcap AC7118)</span><span class="toc-item-dots"></span><span class="toc-item-page">Page 74</span></li>
             </ul>
         </div>
     </div>
@@ -529,6 +544,9 @@ def build_compendium_html():
         
         # Embed the local images as base64 URIs into the HTML body
         html_body = embed_images_as_base64(html_body)
+        
+        # Replace loading="lazy" with loading="eager" to ensure headless Chrome renders all images
+        html_body = html_body.replace('loading="lazy"', 'loading="eager"')
         
         # Wrap each SOP in a page-break div
         sop_html = f"""
