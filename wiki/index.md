@@ -34,6 +34,7 @@
 *   [[wiki/pages/concepts/ai_intervention_capabilities|ai_intervention_capabilities]] — Stub referencing DeeperPoint AI capabilities (Matching, Trusted Intermediary, Input Translation, Memory, Aggregation, Risk Insulation, Synthetic Bootstrapping). Full detail in DeeperPointWiki.
 *   [[wiki/pages/concepts/platform_governance_models|platform_governance_models]] — Stub referencing Ostrom-based governance models for cooperative platforms. Full detail in DeeperPointWiki.
 *   [[wiki/pages/concepts/shadow_capacity|shadow_capacity]] — Stub referencing underutilized productive assets within industrial ecosystems. Full detail in DeeperPointWiki.
+*   [[wiki/pages/concepts/registry_paradox_indigenous_engagement|registry_paradox_indigenous_engagement]] — Why an authoritative list of real Indigenous knowledge keepers cannot be assembled by enumeration (Dr. Manyguns' testimony: squeaky-wheel capture, the humility inversion, knowledge held in societies). Diagnoses the legibility/registry paradox, the hidden-influencer veto inside communities, and design implications (community-custodied OCAP enrollment, relational reputation, Shared Facilitators, forwarding-safe match stories). The Indigenous-specific counterpart to the generalized lessons in DeeperPointWiki's ContentMatchStory and MarketTheoryWP.
 
 ## Pedagogy
 
