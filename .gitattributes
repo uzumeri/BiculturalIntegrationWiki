@@ -1,0 +1,30 @@
+# Normalize line endings across the Mac/Windows workspace.
+# Text files are stored as LF in the repository and checked out with each
+# platform's native ending. This stops the "LF will be replaced by CRLF" churn.
+* text=auto
+
+# Explicit text types
+*.md   text
+*.txt  text
+*.py   text
+*.js   text
+*.css  text
+*.html text
+*.json text
+*.yaml text
+*.yml  text
+
+# Scripts must stay LF even when checked out on Windows
+*.sh   text eol=lf
+
+# Known binaries — never normalize
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.woff  binary
+*.woff2 binary
+*.zip  binary
